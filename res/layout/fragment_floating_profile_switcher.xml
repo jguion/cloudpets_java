@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_floating_profile_switcher_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/floating_menu_underlay" android:background="@color/fab_menu_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <FrameLayout android:id="@id/profile_switcher" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/profile_photo" android:layout_width="@dimen/profile_photo_size_dashboard" android:layout_height="@dimen/profile_photo_size_dashboard" android:layout_marginBottom="28.0dip" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/switch_profile_spinner" android:visibility="invisible" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/abc_text_size_button_material" android:textColor="@drawable/profile_spinner_text_color" android:ellipsize="end" android:id="@id/switch_profile_button" android:background="@drawable/profile_selector_no_arrow" android:clickable="false" android:duplicateParentState="true" android:text="@string/btn_switch_profile" android:singleLine="true" android:textAllCaps="false" style="@style/AppTheme.ProfileSpinner" />
+            <ImageView android:layout_gravity="center|right" android:id="@id/switch_profile_button_arrow" android:padding="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/down_arrow" />
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/floating_menu" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" android:layout_below="@id/profile_switcher" />
+</RelativeLayout>

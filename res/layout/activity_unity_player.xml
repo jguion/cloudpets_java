@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/activity_unity_player_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/unity_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.spiraltoys.cloudpets2.views.ConnectionIndicatorView android:layout_gravity="right" android:id="@id/connection_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abc_action_bar_content_inset_material" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/abc_action_bar_content_inset_material" />
+    <View android:id="@id/splash_overlay" android:background="@drawable/splash" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

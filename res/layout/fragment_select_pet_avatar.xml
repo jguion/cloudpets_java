@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/default_heading_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_fragment_select_pet_avatar" style="@style/OnboardingTitleText" />
+        <TextView android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/message_onboarding_select_pet_avatar" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <HorizontalScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="horizontal" android:id="@id/cloud_pet_avatar_radio_group" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/radio_unicorn" android:background="@drawable/radio_button_unicorn" android:layout_width="@dimen/pet_radio_button_size" android:layout_height="@dimen/pet_radio_button_size" android:layout_margin="@dimen/pet_radio_button_margin" android:checked="true" android:button="@null" />
+            <RadioButton android:id="@id/radio_bear" android:background="@drawable/radio_button_bear" android:layout_width="@dimen/pet_radio_button_size" android:layout_height="@dimen/pet_radio_button_size" android:layout_margin="@dimen/pet_radio_button_margin" android:checked="false" android:button="@null" />
+            <RadioButton android:id="@id/radio_cat" android:background="@drawable/radio_button_cat" android:layout_width="@dimen/pet_radio_button_size" android:layout_height="@dimen/pet_radio_button_size" android:layout_margin="@dimen/pet_radio_button_margin" android:checked="false" android:button="@null" />
+            <RadioButton android:id="@id/radio_dog" android:background="@drawable/radio_button_dog" android:layout_width="@dimen/pet_radio_button_size" android:layout_height="@dimen/pet_radio_button_size" android:layout_margin="@dimen/pet_radio_button_margin" android:checked="false" android:button="@null" />
+            <RadioButton android:id="@id/radio_bunny" android:background="@drawable/radio_button_bunny" android:layout_width="@dimen/pet_radio_button_size" android:layout_height="@dimen/pet_radio_button_size" android:layout_margin="@dimen/pet_radio_button_margin" android:checked="false" android:button="@null" />
+        </RadioGroup>
+    </HorizontalScrollView>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+        <com.spiraltoys.cloudpets2.views.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/pet_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/activity_vertical_margin" android:hint="@string/hint_pet_name" android:singleLine="true" android:maxLength="32" android:inputType="textCapWords" />
+        </com.spiraltoys.cloudpets2.views.CustomTextInputLayout>
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+    <include layout="@layout/widget_onboarding_progress" />
+</LinearLayout>

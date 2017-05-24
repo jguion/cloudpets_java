@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_request_ble_permission_with_onboarding_toolbar_0" android:background="@drawable/gradient_bg_half" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/onboarding_cloud_content_padding_top" />
+    <include android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/toolbar_onboarding" />
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_child_voice_messages_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/empty_view" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/accent" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_no_messages" style="@style/OnboardingTitleText" />
+        <TextView android:textSize="@dimen/abc_text_size_medium_material" android:textColor="@color/primary_text_default_material_light" android:gravity="center" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_gap" android:text="@string/message_no_messages_child_dashboard" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/empty_view_character_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?no_child_messages_image" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <com.spiraltoys.cloudpets2.views.ClippedCornerImageView android:id="@id/child_messages_list_character" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?child_messages_image" android:layout_alignParentBottom="true" android:alpha="0.0" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</FrameLayout>

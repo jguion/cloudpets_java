@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/title_pref_sound_effects_and_music" android:key="pref_sounds" />
+    <Preference android:title="@string/title_pref_reset_password" android:key="pref_reset_password" />
+    <Preference android:title="@string/title_pref_terms_of_use" android:key="pref_terms_of_use" />
+    <Preference android:title="@string/title_pref_log_out" android:key="pref_log_out" />
+</PreferenceScreen>

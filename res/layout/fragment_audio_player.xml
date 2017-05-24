@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_audio_player_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/audio_player_container" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abc_list_item_padding_horizontal_material" android:layout_marginRight="@dimen/abc_list_item_padding_horizontal_material" android:indeterminate="true" app:mpb_progressStyle="horizontal" style="@style/Widget.MaterialProgressBar.ProgressBar.Horizontal" />
+            <SeekBar android:id="@id/seek_bar" android:tag="binding_1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+        </FrameLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/abc_list_item_padding_horizontal_material" android:layout_marginRight="@dimen/abc_list_item_padding_horizontal_material">
+            <TextView android:textSize="@dimen/abc_text_size_caption_material" android:textColor="@color/abc_secondary_text_material_light" android:id="@id/current_playback_time" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/label_empty_track_length" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/abc_text_size_caption_material" android:textColor="@color/abc_secondary_text_material_light" android:id="@id/track_length" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_empty_track_length" />
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/play_button" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" app:elevation="2.0dip" app:rippleColor="@color/ripple_material_dark" app:borderWidth="0.0dip" app:layout_gravity="center" app:backgroundTint="@color/button_bg_play_pause" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/pause_button" android:padding="16.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pause" app:elevation="2.0dip" app:rippleColor="@color/ripple_material_dark" app:borderWidth="0.0dip" app:layout_gravity="center" app:backgroundTint="@color/button_bg_play_pause" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/no_connection_notice" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="16.0dip" android:gravity="center" android:layout_gravity="center" android:background="@drawable/rounded_rect_bg_semi_transparent" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="380.0dip" android:text="@string/error_connection_failed" />
+    </LinearLayout>
+</FrameLayout>

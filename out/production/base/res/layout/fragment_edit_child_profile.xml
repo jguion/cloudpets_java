@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/background_light_base" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:background="@color/background_light_default" android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/profile_photo" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/profile_photo_size" android:layout_height="@dimen/profile_photo_size" android:layout_margin="@dimen/profile_photo_margin" android:src="@drawable/no_picture" />
+            <ImageView android:layout_gravity="right" android:padding="18.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/plus" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.spiraltoys.cloudpets2.views.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin">
+                <android.support.v7.widget.AppCompatEditText android:id="@id/display_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_child_profile_name" android:singleLine="true" android:maxLength="32" android:inputType="textCapWords" />
+            </com.spiraltoys.cloudpets2.views.CustomTextInputLayout>
+            <RelativeLayout android:gravity="fill_horizontal|center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.spiraltoys.cloudpets2.views.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin">
+                    <android.support.v7.widget.AppCompatEditText android:id="@id/username" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_child_profile_username" android:singleLine="true" android:maxLength="32" android:inputType="textVisiblePassword" />
+                </com.spiraltoys.cloudpets2.views.CustomTextInputLayout>
+                <ImageView android:id="@id/username_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/edit_cloudpet_button" android:background="?selectableItemBackground" android:paddingRight="@dimen/activity_horizontal_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:padding="@dimen/profile_photo_margin" android:layout_width="@dimen/profile_photo_size_including_margin" android:layout_height="@dimen/profile_photo_size_including_margin">
+                <com.spiraltoys.cloudpets2.views.CircleImageView android:id="@id/configured_cloud_pet_avatar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/radio_button_bear_default" app:outer_border_color="@color/profile_photo_border" app:background_color="@android:color/transparent" />
+            </FrameLayout>
+            <TextView android:enabled="false" android:textSize="@dimen/abc_text_size_medium_material" android:ellipsize="end" android:gravity="start|center" android:id="@id/configured_cloud_pet_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_mode_edit_black_24dp" android:alpha="0.54" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <android.support.v7.widget.GridLayout android:background="@color/background_light_default" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" app:rowCount="2" app:columnCount="2">
+        <TextView android:layout_marginLeft="4.0dip" android:text="@string/label_birth_month" app:layout_row="0" app:layout_column="0" app:layout_columnWeight="5.0" style="@style/TextAppearance.AppCompat.Caption" fontPath="fonts/merge_light.otf" />
+        <TextView android:layout_marginLeft="4.0dip" android:text="@string/label_birth_day_of_month" app:layout_row="0" app:layout_column="1" app:layout_columnWeight="4.0" style="@style/TextAppearance.AppCompat.Caption" fontPath="fonts/merge_light.otf" />
+        <android.support.v7.widget.AppCompatSpinner android:entries="@array/months" android:id="@id/birthday_month_spinner" android:layout_width="0.0dip" android:spinnerMode="dropdown" app:layout_row="1" app:layout_column="0" app:layout_columnWeight="5.0" app:layout_gravity="fill_horizontal" />
+        <android.support.v7.widget.AppCompatSpinner android:id="@id/birthday_day_spinner" android:layout_width="0.0dip" android:spinnerMode="dropdown" app:layout_row="1" app:layout_column="1" app:layout_columnWeight="4.0" app:layout_gravity="fill_horizontal" />
+    </android.support.v7.widget.GridLayout>
+    <View android:background="@color/background_light_default" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

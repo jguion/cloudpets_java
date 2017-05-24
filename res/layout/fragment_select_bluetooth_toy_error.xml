@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/fragment_select_bluetooth_toy_error_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/default_heading_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/title_container_scanning" android:background="@color/background_light_default" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/abc_text_size_display_1_material" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/title_scanning_error" style="@style/OnboardingTitleText" />
+        <TextView android:gravity="center_horizontal" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:text="@string/message_scanning_error_no_toys" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.spiraltoys.cloudpets2.views.CircleImageView android:id="@id/connection_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?pet_avatar" app:outer_border_color="@color/profile_photo_border" app:background_color="@color/avatar_background" />
+    </LinearLayout>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/retry_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="@dimen/default_button_height" android:text="@string/btn_retry" style="@style/BorderlessButtonStyle" />
+        <Button android:id="@id/cancel_button" android:background="@drawable/button_secondary_dark" android:layout_width="fill_parent" android:layout_height="@dimen/default_button_height" android:text="@string/btn_cancel" style="@style/BorderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

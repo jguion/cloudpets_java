@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <SurfaceView android:layout_width="0.0dip" android:layout_height="0.0dip" />
+        <com.spiraltoys.cloudpets2.views.PetVideoSurfaceView android:layout_gravity="center" android:id="@id/pet_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/video_placeholder" android:background="@color/background_light_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?pet_video_splash" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/logo" />
+    </FrameLayout>
+    <android.support.v7.widget.GridLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/design_fab_elevation" app:rowCount="2" app:columnCount="2">
+        <Button android:id="@id/button_log_in" android:background="@drawable/button_secondary_light" android:layout_width="0.0dip" android:minHeight="@dimen/default_button_height" android:text="@string/btn_log_in" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" app:layout_columnSpan="2" app:layout_gravity="fill_horizontal" style="@style/BorderlessButtonStyle" />
+        <Button android:id="@id/button_create_account" android:background="@drawable/button_primary" android:layout_width="0.0dip" android:minHeight="@dimen/default_button_height" android:text="@string/btn_create_account" app:layout_columnWeight="1.0" app:layout_gravity="top" style="@style/BorderlessButtonStyle" />
+        <Button android:id="@id/buy_a_cloudpet_button" android:background="@drawable/button_primary_dark" android:layout_width="0.0dip" android:minHeight="@dimen/default_button_height" android:text="@string/btn_buy_a_cloudpet" app:layout_columnWeight="1.0" app:layout_gravity="top" style="@style/BorderlessButtonStyle" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout android:tag="layout/list_item_voice_message_0" android:background="?android:selectableItemBackground" android:paddingRight="@dimen/abc_list_item_padding_horizontal_material" android:layout_width="fill_parent" android:layout_height="wrap_content" app:rowCount="2" app:columnCount="3" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" app:layout_rowSpan="2" app:layout_column="0" app:layout_gravity="fill_vertical">
+        <ImageView android:id="@id/profile_photo" android:layout_width="@dimen/list_item_image_size" android:layout_height="@dimen/list_item_image_size" android:layout_margin="@dimen/list_item_image_margin" />
+        <Space android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout app:layout_rowSpan="2" app:layout_column="2" app:layout_gravity="center|right">
+        <FrameLayout android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:tag="binding_3" android:background="@drawable/badge_pending" android:text="@string/badge_needs_approval" style="@style/ListItemBadge" />
+            <TextView android:tag="binding_4" android:background="@drawable/badge_approved" android:text="@string/badge_approved" style="@style/ListItemBadge" />
+        </FrameLayout>
+        <TextView android:tag="binding_5" android:background="@drawable/badge_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/badge_new" style="@style/ListItemBadge" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" app:layout_column="1" app:layout_columnWeight="1.0" app:layout_gravity="fill_horizontal">
+        <Space android:tag="binding_6" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_text_vertical_padding" />
+        <Space android:tag="binding_7" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_image_margin" />
+        <TextView android:textSize="@dimen/abc_text_size_menu_material" android:textColor="@color/abc_primary_text_material_light" android:ellipsize="end" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+        <TextView android:textSize="@dimen/abc_text_size_menu_material" android:textColor="@color/abc_primary_text_material_light" android:ellipsize="end" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" fontPath="fonts/merge_bold.otf" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" app:layout_column="1" app:layout_columnWeight="1.0" app:layout_gravity="fill_horizontal">
+        <TextView android:textSize="@dimen/abc_text_size_small_material" android:textColor="@color/abc_primary_text_material_light" android:ellipsize="end" android:tag="binding_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" fontPath="fonts/merge_light.otf" />
+        <TextView android:textSize="@dimen/abc_text_size_small_material" android:textColor="@color/abc_secondary_text_material_light" android:ellipsize="end" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" fontPath="fonts/merge_light.otf" />
+        <Space android:tag="binding_12" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_text_vertical_padding" />
+        <Space android:tag="binding_13" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_image_margin" />
+    </LinearLayout>
+</android.support.v7.widget.GridLayout>

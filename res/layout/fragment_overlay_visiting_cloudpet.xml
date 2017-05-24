@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/visiting_cloudpet_overlay" android:tag="layout/fragment_overlay_visiting_cloudpet_0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/gradient_bg_half" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/onboarding_cloud_content_padding_top" android:paddingRight="@dimen/activity_horizontal_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_heading_margin_top" style="@style/OnboardingTitleText" />
+        <TextView android:gravity="center_horizontal" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.spiraltoys.cloudpets2.views.CircleImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?pet_avatar" app:outer_border_color="@color/profile_photo_border" app:background_color="@color/avatar_background_visiting_cloudpet" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+        <me.zhanghai.android.materialprogressbar.MaterialProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@style/Widget.MaterialProgressBar.ProgressBar" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+    </LinearLayout>
+    <include layout="@layout/toolbar_onboarding" />
+</FrameLayout>

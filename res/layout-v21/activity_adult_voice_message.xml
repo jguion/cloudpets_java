@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_adult_voice_message_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_rainbow" />
+    <ScrollView android:id="@id/voice_message_player_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:layout_above="@id/button_panel" />
+    <LinearLayout android:orientation="vertical" android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/design_fab_elevation">
+        <Button android:id="@id/approve_voice_message_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_approve_message" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" style="@style/BorderlessButtonStyle" />
+        <Button android:id="@id/delete_voice_message_button" android:background="@drawable/button_secondary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_delete" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" style="@style/BorderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

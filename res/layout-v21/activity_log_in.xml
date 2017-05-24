@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_log_in_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button android:id="@id/button_log_in" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_log_in" android:layout_alignParentBottom="true" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" android:elevation="@dimen/design_fab_elevation" style="@style/BorderlessButtonStyle" />
+    <ScrollView android:id="@id/scroll_view" android:background="@drawable/gradient_bg_half" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/button_log_in">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/onboarding_cloud_content_padding_top" />
+            <TextView android:gravity="center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_heading_margin_top" android:layout_marginBottom="@dimen/activity_vertical_margin" android:text="@string/title_activity_log_in" style="@style/OnboardingTitleText" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.spiraltoys.cloudpets2.views.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_your_email_address" android:inputType="textEmailAddress" />
+            </com.spiraltoys.cloudpets2.views.CustomTextInputLayout>
+            <com.spiraltoys.cloudpets2.views.CustomTextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_password" android:inputType="textPassword" />
+            </com.spiraltoys.cloudpets2.views.CustomTextInputLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0" />
+            <Button android:textColor="@color/button_primary_dark" android:id="@id/tutorial_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_tutorial" style="@style/BorderlessButtonStyle" />
+            <Button android:textColor="@color/button_primary_dark" android:id="@id/reset_password_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/default_gap" android:text="@string/btn_forgot_password" style="@style/BorderlessButtonStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/login_bear" android:src="@drawable/login_bear" android:layout_alignBottom="@id/scroll_view" style="@style/AppTheme.LoginBear" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/toolbar_onboarding" />
+</RelativeLayout>

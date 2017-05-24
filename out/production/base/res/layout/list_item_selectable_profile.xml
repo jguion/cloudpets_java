@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.GridLayout android:tag="layout/list_item_selectable_profile_0" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/list_item_height_single_with_avatar" app:rowCount="2" app:columnCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/checkbox_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/radio_unselected" android:layout_marginStart="@dimen/abc_list_item_padding_horizontal_material" app:layout_rowSpan="2" app:layout_column="0" app:layout_gravity="center_vertical" />
+    <FrameLayout app:layout_rowSpan="2" app:layout_column="1" app:layout_gravity="fill_vertical">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/profile_photo" android:layout_width="@dimen/list_item_image_size" android:layout_height="@dimen/list_item_image_size" android:layout_marginLeft="@dimen/abc_list_item_padding_horizontal_material" android:layout_marginRight="@dimen/abc_list_item_padding_horizontal_material" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/abc_text_size_menu_material" android:textColor="@color/abc_primary_text_material_light" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/display_name" android:paddingRight="@dimen/list_item_image_margin" android:layout_width="0.0dip" android:lines="1" app:layout_rowWeight="1.0" app:layout_column="2" app:layout_gravity="fill" />
+</android.support.v7.widget.GridLayout>

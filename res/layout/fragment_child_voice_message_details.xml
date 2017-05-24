@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_child_voice_message_details_0" android:background="@drawable/cloud_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/message_details_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin">
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+            <ImageView android:id="@id/profile_photo" android:layout_width="@dimen/profile_photo_width_dp" android:layout_height="@dimen/profile_photo_height_dp" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/abc_text_size_title_material" android:textColor="@color/primary_text_default_material_light" android:ellipsize="end" android:gravity="center" android:id="@id/message_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/abc_text_size_small_material" android:textColor="@color/primary_text_default_material_light" android:gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" fontPath="fonts/merge_light.otf" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/child_detail_message_character" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?child_messages_detail_view_image" />
+    </FrameLayout>
+    <android.support.v7.widget.GridLayout android:layout_gravity="center_horizontal" android:id="@id/button_panel" android:background="@drawable/cloud_dialog_bg_primary" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="3.0dip" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:columnCount="2">
+        <android.support.design.widget.FloatingActionButton android:id="@id/push_to_toy_button" android:src="@drawable/ic_send_to_cloudpet" app:borderWidth="0.0dip" app:layout_columnWeight="1.0" app:layout_gravity="center" app:backgroundTint="@color/button_bg_fab_default" style="@style/AppTheme.FloatingActionButton" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/delete_voice_message_button" android:src="@drawable/ic_delete_message" app:borderWidth="0.0dip" app:layout_columnWeight="1.0" app:layout_gravity="center" app:backgroundTint="@color/button_bg_fab_default" style="@style/AppTheme.FloatingActionButton" />
+        <TextView android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/push_to_toy_button_label" android:layout_marginTop="@dimen/fab_label_margin_top" android:text="@string/btn_send_to_cloudpet" android:width="0.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_gravity="fill_horizontal" />
+        <TextView android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="center" android:id="@id/delete_voice_message_button_label" android:layout_marginTop="@dimen/fab_label_margin_top" android:text="@string/btn_delete_now" android:width="0.0dip" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" app:layout_gravity="fill_horizontal" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

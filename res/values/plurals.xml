@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="message_no_child_messages">
+        <item quantity="other">No messages were found for your children.</item>
+        <item quantity="one">No messages were found for your child.</item>
+    </plurals>
+</resources>

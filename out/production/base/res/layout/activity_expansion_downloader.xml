@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/gradient_bg_half" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_onboarding" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="150.0dip" android:layout_weight="0.0">
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_expansion_app_data_required" style="@style/OnboardingTitleText" />
+        <TextView android:textSize="@dimen/abc_text_size_subhead_material" android:textColor="@color/primary_text_default_material_light" android:gravity="center" android:id="@id/statusText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" fontPath="fonts/merge_bold.otf" />
+        <LinearLayout android:orientation="vertical" android:id="@id/downloaderDashboard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_below="@id/statusText">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_weight="1.0">
+                <TextView android:id="@id/progressAsFraction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0MB / 0MB" android:layout_alignParentLeft="true" style="@android:style/TextAppearance.Small" />
+                <TextView android:id="@id/progressAsPercentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_alignRight="@id/progressBar" style="@android:style/TextAppearance.Small" />
+                <ProgressBar android:id="@id/progressBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" android:layout_below="@id/progressAsFraction" style="?android:attr/progressBarStyleHorizontal" />
+                <TextView android:id="@id/progressAverageSpeed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progressBar" android:layout_alignParentLeft="true" style="@android:style/TextAppearance.Small" />
+                <TextView android:id="@id/progressTimeRemaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progressBar" android:layout_alignRight="@id/progressBar" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/pauseButton" android:background="@drawable/button_secondary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/text_button_pause" android:layout_weight="0.0" style="@style/BorderlessButtonStyle" />
+                <Button android:id="@id/cancelButton" android:background="@drawable/button_secondary_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/text_button_cancel" android:layout_weight="0.0" style="@style/BorderlessButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/approveCellular" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/abc_text_size_subtitle_material_toolbar" android:id="@id/textPausedParagraph1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="10.0dip" android:text="@string/text_paused_cellular" />
+            <TextView android:textSize="@dimen/abc_text_size_subtitle_material_toolbar" android:id="@id/textPausedParagraph2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/activity_horizontal_margin" android:layout_marginBottom="10.0dip" android:text="@string/text_paused_cellular_2" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/buttonRow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/resumeOverCellular" android:background="@drawable/button_primary_dark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/default_button_height" android:text="@string/text_button_resume_cellular" android:layout_weight="1.0" style="@style/BorderlessButtonStyle" />
+                <Button android:id="@id/wifiSettingsButton" android:background="@drawable/button_primary" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minHeight="@dimen/default_button_height" android:text="@string/text_button_wifi_settings" android:layout_weight="1.0" style="@style/BorderlessButtonStyle" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

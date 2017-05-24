@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/title_pref_enable_adult_dashboard_background_music" android:key="pref_adult_dashboard_background_music_enable" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/title_pref_enable_child_dashboard_background_music" android:key="pref_child_dashboard_background_music_enable" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/title_pref_enable_child_dashboard_sounds" android:key="pref_child_dashboard_sounds_enable" android:widgetLayout="@layout/preference_switch" android:defaultValue="true" />
+</PreferenceScreen>

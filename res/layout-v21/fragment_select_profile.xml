@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_select_profile_0" android:background="@color/background_light_default" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/title" android:background="#ffffffff" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/label_select_one_or_more_recipients" android:elevation="2.0dip" />
+    <android.support.v4.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <Button android:id="@id/select_profile_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_send_to_children" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" android:elevation="@dimen/design_fab_elevation" style="@style/BorderlessButtonStyle" />
+</LinearLayout>

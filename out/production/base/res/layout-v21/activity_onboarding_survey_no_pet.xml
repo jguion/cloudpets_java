@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/content" android:background="@drawable/gradient_bg_half" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/button_panel">
+        <Space android:layout_width="fill_parent" android:layout_height="@dimen/onboarding_cloud_content_padding_top" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/default_heading_margin_top" android:text="@string/title_onboarding_no_pet" style="@style/OnboardingTitleText" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240.0dip" android:text="@string/message_onboarding_get_started" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/onboarding_gate_one_cat" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/toolbar_onboarding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:elevation="@dimen/design_fab_elevation">
+        <Button android:id="@id/continue_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_want_send_messages" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" style="@style/BorderlessButtonStyle" />
+        <Button android:id="@id/buy_a_cloudpet_button" android:background="@drawable/button_primary_dark" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_want_buy_cloudpet" android:paddingStart="@dimen/abc_action_bar_content_inset_material" android:paddingEnd="@dimen/abc_action_bar_content_inset_material" style="@style/BorderlessButtonStyle" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_voice_message_player_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/messageForMeCharacterImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/message_for_me_bunny" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/abc_dialog_list_padding_vertical_material" android:paddingRight="@dimen/activity_horizontal_margin" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.spiraltoys.cloudpets2.views.RippleView android:id="@id/playback_ripple_effect" android:layout_width="@dimen/profile_photo_width_dp" android:layout_height="@dimen/profile_photo_height_dp" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin">
+            <ImageView android:layout_gravity="center" android:id="@id/profile_photo" android:layout_width="@dimen/profile_photo_width_dp" android:layout_height="@dimen/profile_photo_height_dp" />
+        </com.spiraltoys.cloudpets2.views.RippleView>
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/abc_text_size_title_material" android:gravity="center" android:id="@id/message_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="@dimen/abc_text_size_small_material" android:gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <FrameLayout android:tag="binding_2" android:paddingTop="@dimen/activity_vertical_margin" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textColor="@android:color/white" android:tag="binding_3" android:background="@drawable/badge_pending" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/badge_needs_approval" />
+            <TextView android:textColor="@android:color/white" android:tag="binding_4" android:background="@drawable/badge_approved" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/badge_approved" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/audio_player_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

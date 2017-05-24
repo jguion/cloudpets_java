@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_child_dashboard_stories_0" android:background="@drawable/cloud_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:background="@color/background_light_base" android:paddingLeft="@dimen/abc_list_item_padding_horizontal_material" android:paddingTop="@dimen/default_gap" android:paddingRight="@dimen/abc_list_item_padding_horizontal_material" android:paddingBottom="@dimen/default_gap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/label_select_story" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:scrollbars="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/abc_action_bar_default_height_material" />
+            <solid android:color="@color/app_bar_light_default" />
+        </shape>
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/rainbow" />
+    </item>
+</layer-list>

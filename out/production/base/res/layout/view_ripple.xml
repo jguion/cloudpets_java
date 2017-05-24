@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ripple_1" android:tag="layout/view_ripple_0" android:background="@drawable/ripple_circle" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/ripple_2" android:tag="layout/view_ripple_1" android:background="@drawable/ripple_circle" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/ripple_3" android:tag="layout/view_ripple_2" android:background="@drawable/ripple_circle" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

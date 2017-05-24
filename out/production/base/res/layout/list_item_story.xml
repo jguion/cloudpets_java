@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/list_item_story_0" android:paddingLeft="@dimen/abc_list_item_padding_horizontal_material" android:paddingTop="@dimen/abc_dialog_list_padding_vertical_material" android:paddingRight="@dimen/abc_list_item_padding_horizontal_material" android:paddingBottom="@dimen/abc_dialog_list_padding_vertical_material" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.spiraltoys.cloudpets2.views.FixedAspectLayout android:id="@id/tile" android:background="@drawable/rounded_rect_bg" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="0.5">
+        <ImageView android:id="@id/story_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="bottom" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/preview_art_caption_margin_bottom" android:shadowColor="@color/primary_text_default_material_light" android:shadowDy="1.5" android:shadowRadius="1.0" fontPath="fonts/merge_bold.otf" />
+    </com.spiraltoys.cloudpets2.views.FixedAspectLayout>
+</FrameLayout>

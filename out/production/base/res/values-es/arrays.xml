@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barnyard_animals">
+        <item>Pollo</item>
+        <item>Vaca</item>
+        <item>Caballo</item>
+        <item>Cerdo</item>
+    </string-array>
+    <string-array name="lullaby_lengths">
+        <item>5 min</item>
+        <item>8 min</item>
+        <item>10 min</item>
+        <item>12 min</item>
+        <item>15 min</item>
+    </string-array>
+    <string-array name="months">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="story_sassy_cassie_page_text">
+        <item></item>
+        <item>El baúl de los juguetes de Cassie rebosaba de juguetes... Los había pequeños, grandes, de peluche, inflables, andantes y hasta parlantes.</item>
+        <item>Pero los juguetes favoritos de Cassie venían de la caja de juguetes de mamá, la del espejo grande. “¡Necesitaré esto, esto, esto, ah, y sobre todo esto!\"</item>
+        <item>Volvió a su habitación como un rayo.</item>
+        <item>Extendió la sombra de ojos azul nacarado. Se echó colorete rosa pastel. Se pintó los labios de color fresa.</item>
+        <item>“Ahora parezco una princesa de verdad,” dijo Cassie delante del espejo antes de salir corriendo fuera.</item>
+        <item>“Mírame, mírame, mírame. Soy una princesa,” canturreó a su hermano mayor.</item>
+        <item>“Shhhhhhh,” dijo Dominic, “Miss Kitty y tú vais a espantar a los pájaros.” Ni siquiera se dio cuenta del precioso maquillaje de princesa de Cassie. A lo mejor mamá y papá sí que lo notarían.</item>
+        <item>“Mírame, mírame, mírame. Soy una princesa,” Cassie hizo piruetas delante de la cámara de papá. “Haz una foto papi.”</item>
+        <item>(clic clic clic)</item>
+        <item>“Mírame, mírame, mírame. Soy una princesa,” Cassie dio vueltas delante del caballete de mamá. “Píntame, mami.” “Cassie, eres una princesa preciosa, pero ya te lo he dicho otras veces, no puedes usar mi maquillaje,” dijo mamá.</item>
+        <item>“Pero soy una princesa y las princesas de verdad llevan maquillaje. ¡Voy a usar tu maquillaje!” “No seas respondona, Cassie,” dijo mamá, “No necesitas maquillaje para ser una princesa.” “Ya no volveré a usar tu maquillaje,” prometió Cassie.</item>
+        <item>Al día siguiente, las amigas de Cassie vinieron a jugar a los disfraces. “Quiero ser una bailarina.\" dijo Lily. “Las bailarinas resplandecen cuando bailan en el escenario,” dijo Cassie mientras le ponía maquillaje rosa brillante en la cara a su amiga.</item>
+        <item>Lily hizo piruetas, “Ahora me toca a mí.” dijo Gigi, “quiero ser un hada.”</item>
+        <item>“Las hadas de verdad están cubiertas de polvo de hadas brillante,” dijo Cassie mientras extendía sombra de ojos verde brillante por la cara de su amiga.</item>
+        <item>Gigi se miró en el espejo y agitó los brazos como si fueran alas, “Ahora puedo aletear y volar en el cielo.”</item>
+        <item>Polly dijo: “Tomemos el té.”</item>
+        <item>“El té es para las damas y las damas llevan maquillaje sofisticado,” dijo Cassie mientras maquillaba a su amiga con bonitos colores.</item>
+        <item>Polly hizo una reverencia, “Es la hora del té. ¿Un terrón o dos?” La resplandeciente bailarina, el hada brillante y la elegante dama desfilaron con Cassie.</item>
+        <item>Brincaron y bailaron por toda la casa hasta que . . .</item>
+        <item>“¡Cassie!” dijo mamá muy seria, “¿Qué te dije de mi maquillaje?” “Pero yo no llevo puesto tu maquillaje,” dijo Cassie, “La bailarina, el hada y la dama sí.”</item>
+        <item>“Tienes maquillaje por todo el vestido. Se acabó jugar con mi maquillaje, mira el desorden que has preparado” dijo mamá. “Ya no volveré a jugar con tu maquillaje,” prometió Cassie.</item>
+        <item>Más tarde, por la noche, mamá arropó a Cassie en la cama. “Mami, solo una princesa de verdad puede preparar un desastre así, ¿verdad?” preguntó Cassie.</item>
+        <item>“Exacto, y, hagas lo que hagas, tú siempre serás mi princesita. Buenas noches,” susurró mamá. “Buenas noches, Reina mami,” dijo Cassie mientras viajaba hacia la tierra de los sueños.</item>
+        <item>A la mañana siguiente, Cassie se despertó muy temprano. Había soñado con todas las cosas fantásticas que hacen las princesas y saltó de la cama sin perder un momento.</item>
+        <item>El resto del reino seguía dormido mientras Cassie estaba ocupada creando algo muy especial.</item>
+        <item>La puerta se abrió mientras añadía los últimos retoques.</item>
+        <item>“¡Mira, mami, mira, te he hecho esto!” Pero mamá se quedó ahí parada. No dijo ni una palabra. “¿No te gusta?” preguntó Cassie.</item>
+        <item>Finalmente, mamá respiró hondo y dijo: “Es precioso, eres una princesa de verdad, pero . . .” “¿Qué pasa mami?” preguntó Cassie.</item>
+        <item>“¡Se acabó el jugar con las pinturas de la Reina!” “No volveré a jugar con tus pinturas” prometió Cassie.</item>
+    </string-array>
+    <string-array name="story_worst_parents_page_text">
+        <item></item>
+        <item>En una pequeña ciudad, en una bonita calle vivía una familia que se quería mucho: mamá, papá, sus hijos, Hank y Jack y su mascota, el jerbo Gerry.</item>
+        <item>A Hank y Jack les encantaba divertirse. Y un sábado muy soleado se despertaron y decidieron que este sería el día más súper divertido. Así que se inventaron un nuevo juego, ¡el Tornado saltarín!</item>
+        <item>Pero cuando mamá vio su habitación, les hizo parar de saltar. “Vestíos, por favor.” Dijo.</item>
+        <item>Ellos no querían que se terminara la diversión, así que Hank y Jack se inventaron un juego todavía más divertido en la mesa del desayuno.</item>
+        <item>Pero cuando papá vio el desorden, no le gustó nada. “Limpiad.” Dijo.</item>
+        <item>Por la tarde, Hank y Jack crearon la pista de carreras más grande del mundo.</item>
+        <item>Pero cuando llegó mamá, gritó: “¡Se acabó el juego!”</item>
+        <item>Durante la hora del baño, Hank y Jack se divirtieron más que en todo el día. Construyeron su propio barco de vela para navegar alrededor del mundo.</item>
+        <item>Pero cuando mamá y papá vieron el desorden, se enfadaron mucho. “¡A la cama!” Gritaron.</item>
+        <item>A mamá y a papá no les gustaba que Hank y Jack se lo estuvieran pasando tan bien. Les quitaron todos los juguetes como castigo. Jack y Hank estaban enfadados. “¡Sois los peores padres del mundo!” Gritaron.</item>
+        <item>Cuando mamá y papá apagaron la luz, Jack se giró hacia Hank y dijo, “Ojalá fuéramos nosotros los padres.” “Sí,” susurró Hank, “nos divertiríamos mucho más.” Después, se quedaron dormidos.</item>
+        <item>A la mañana siguiente, Hank y Jack se despertaron y todo era diferente. ¡Eran grandes! Hank y Jack estaban asustados, así que llamaron a sus padres. “¡Mamá!” gritó Hank. “¡Papá!” chilló Jack.</item>
+        <item>Llegaron corriendo. Pero mamá y papá también eran diferentes. ¡Eran pequeños!</item>
+        <item>“Supongo que ahora los padres somos nosotros.” dijo Hank. “¿Qué hacemos hoy?” preguntó Jack. Hank no estaba seguro. Así que decidieron hacer lo que mejor se les daba.</item>
+        <item>¡Divertirse!</item>
+        <item>¡Vaya!</item>
+        <item>Como ya no podían saltar en las camas, decidieron bajar a desayunar. Y como Hank y Jack eran los padres, decidieron que no hacía falta limpiar.</item>
+        <item>¡Se divirtieron muchísimo durante todo el día!</item>
+        <item>Después de jugar todo el día, tenían mucha hambre, pero no había nada que comer.</item>
+        <item>Y estaban incómodos con la ropa sucia, pero no tenían nada limpio que ponerse.</item>
+        <item>Y estaban muy cansados, pero no tenían donde dormir.</item>
+        <item>La pequeña mamá y el pequeño papá empezaron a llorar. “No estéis tristes” dijo Jack. “Lavaos la cara y cepillaos los dientes.” Les dijo Hank, “y nosotros limpiaremos.”</item>
+        <item>Cuando Hank y Jack terminaron de limpiar, subieron al piso de arriba y metieron a la pequeña mamá y al pequeño papá en la cama. Pero cuando abrieron la puerta del baño, no podían creer lo que estaban viendo.</item>
+        <item>Hank y Jack entraron corriendo en el baño, antes de que el agua del lavabo se desbordara. ¡Vaya! Nadie se estaba diviertiendo. “¡Sentimos haber dicho que sois los peores padres del mundo!” dijo Jack.</item>
+        <item>“¡Queremos que vuelvan nuestra mamá y nuestro papá!” gritó Hank. Mojados, cansados y hambrientos, Hank y Jack lloraron hasta que se quedaron dormidos.</item>
+        <item>A la mañana siguiente, Hank y Jack se despertaron ¡y descubrieron que volvían a ser pequeños! “¡Creo que huele a tortitas!” exclamó Hank. Hank y Jack se vistieron a toda prisa. Pero esta vez colgaron sus pijamas.</item>
+        <item>¡Hank y Jack bajaron y vieron que mamá y papá eran grandes otra vez!</item>
+        <item>Hoy, Hank y Jack no ensuciaron mientras comían y hasta se ofrecieron a limpiar después de comer. Papá estaba sorprendido y feliz. “¡Hagamos que limpiar sea divertido!” dijo papá.</item>
+        <item>Hank y Jack ayudaron a mamá a doblar la colada. Y cuando terminaron, mamá se inventó un juego nuevo. ¡El coche cesta de la colada!</item>
+        <item>Mientras se bañaban, Hank y Jack consiguieron mantener el baño limpio y ordenado y aún así se divirtieron.</item>
+        <item>Como mamá y papá no tenían que recoger tantas cosas, tuvieron tiempo para jugar a un juego antes de dormir.</item>
+        <item>¡Vaya!</item>
+        <item>Mientras mamá y papá los arropaban, Hank y Jack dijeron: “¡Sois los mejores padres del mundo!” Los dos les dieron un abrazo y un beso de buenas noches.</item>
+        <item>Y, mientras apagaban la luz, mamá y papá susurraron a Hank y Jack: “Hoy nos lo hemos pasado genial con vosotros, chicos.”</item>
+        <item>Fin.</item>
+    </string-array>
+    <string-array name="toy_volumes">
+        <item>Bajo</item>
+        <item>Medio</item>
+        <item>Alto</item>
+    </string-array>
+</resources>

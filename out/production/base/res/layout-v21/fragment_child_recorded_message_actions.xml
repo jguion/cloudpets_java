@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:tag="layout/fragment_child_recorded_message_actions_0" android:background="@drawable/cloud_dialog_bg" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.spiraltoys.cloudpets2.views.RippleView android:id="@id/playback_ripple_effect" android:layout_width="@dimen/profile_photo_width_dp" android:layout_height="@dimen/profile_photo_height_dp" android:layout_marginTop="@dimen/activity_vertical_margin">
+        <com.spiraltoys.cloudpets2.views.CircleImageView android:layout_width="@dimen/profile_photo_width_dp" android:layout_height="@dimen/profile_photo_height_dp" android:src="?pet_avatar" app:background_color="@color/avatar_background_solid" />
+    </com.spiraltoys.cloudpets2.views.RippleView>
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/message_details_container" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <android.support.v7.widget.GridLayout android:layout_gravity="center_horizontal" android:background="@drawable/cloud_dialog_bg_primary" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="3.0dip" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/design_appbar_elevation" app:columnCount="2">
+        <android.support.design.widget.FloatingActionButton android:id="@id/select_recipients_button" android:src="@drawable/ic_send_to" app:borderWidth="0.0dip" app:layout_columnWeight="1.0" app:layout_gravity="center" app:backgroundTint="@color/button_bg_fab_default" style="@style/AppTheme.FloatingActionButton" />
+        <android.support.design.widget.FloatingActionButton android:id="@id/delete_button" android:src="@drawable/ic_delete_message" app:borderWidth="0.0dip" app:layout_columnWeight="1.0" app:layout_gravity="center" app:backgroundTint="@color/button_bg_fab_default" style="@style/AppTheme.FloatingActionButton" />
+        <TextView android:textColor="@android:color/white" android:layout_marginTop="@dimen/fab_label_margin_top" android:text="@string/btn_send_to" app:layout_gravity="center" />
+        <TextView android:textColor="@android:color/white" android:layout_marginTop="@dimen/fab_label_margin_top" android:text="@string/btn_delete_now" app:layout_gravity="center" />
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

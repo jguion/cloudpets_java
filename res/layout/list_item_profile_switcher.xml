@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/list_item_profile_switcher_0" android:background="?selectableItemBackground" android:padding="@dimen/abc_list_item_padding_horizontal_material" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@id/profile_photo" android:layout_width="@dimen/design_fab_content_size" android:layout_height="@dimen/design_fab_content_size" />
+        <ImageView android:id="@id/selection_indicator" android:layout_width="@dimen/design_fab_content_size" android:layout_height="@dimen/design_fab_content_size" android:src="@drawable/accent_circle_2dp" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/abc_text_size_menu_material" android:textColor="@color/abc_primary_text_material_light" android:ellipsize="end" android:gravity="center" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" />
+</LinearLayout>

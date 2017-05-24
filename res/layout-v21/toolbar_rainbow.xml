@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/app_bar_light_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/design_appbar_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="@color/app_bar_light_default" android:layout_width="fill_parent" android:layout_height="@dimen/abc_action_bar_default_height_material" app:popupTheme="@style/ThemeOverlay.AppCompat.Light" app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/rainbow" android:scaleType="fitXY" />
+</LinearLayout>

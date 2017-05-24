@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_capital_off">OFF</string>
+    <string name="abc_capital_on">ON</string>
+    <string name="abc_search_hint">Search…</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="common_google_play_services_enable_button">Enable</string>
+    <string name="common_google_play_services_enable_text"><g id="app_name">%1$s</g>" won't work unless you enable Google Play services."</string>
+    <string name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text_phone"><g id="app_name">%1$s</g>" won't run without Google Play services, which are missing from your phone."</string>
+    <string name="common_google_play_services_install_text_tablet"><g id="app_name">%1$s</g>" won't run without Google Play services, which are missing from your tablet."</string>
+    <string name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><g id="app_name">%1$s</g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="common_google_play_services_unsupported_text"><g id="app_name">%1$s</g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_update_button">Update</string>
+    <string name="common_google_play_services_update_text"><g id="app_name">%1$s</g>" won't run unless you update Google Play services."</string>
+    <string name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><g id="app_name">%1$s</g>" won't run without Google Play services, which are currently updating."</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="account_type_adult">Adult</string>
+    <string name="account_type_child">Child</string>
+    <string name="account_type_parent">Parent</string>
+    <string name="app_name"><g id="cloudpets_brand">CloudPets</g> 2 Free</string>
+    <string name="badge_approved">Approved</string>
+    <string name="badge_needs_approval">Needs Approval</string>
+    <string name="badge_new">new!</string>
+    <string name="brand_cloud_pets"><g id="cloudpets_brand">CloudPets</g></string>
+    <string name="btn_accept">Accept</string>
+    <string name="btn_add_profile">Add Profile</string>
+    <string name="btn_approve_message">"Approve and send to child's inbox"</string>
+    <string name="btn_buy_a_cloudpet">Buy the Premium APP!</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_connect_your_cloudpet">Connect your <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_create_account">Create Account</string>
+    <string name="btn_create_child_profile">Create Child Profile</string>
+    <string name="btn_decline">Decline</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_delete_now">Delete Now</string>
+    <string name="btn_delete_profile">Delete</string>
+    <string name="btn_discard_changes">Discard Changes</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_dont_have_cloudpet">"I don't have a "<g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_exit_game">Exit Game</string>
+    <string name="btn_exit_story">Exit Story</string>
+    <string name="btn_forgot_password">Forgot Password?</string>
+    <string name="btn_have_cloudpet">I have a <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_invite_friend">Invite Friends</string>
+    <string name="btn_log_in">Log In</string>
+    <string name="btn_log_out">Log Out</string>
+    <string name="btn_manage_profiles">Manage Users</string>
+    <string name="btn_manage_settings">Settings</string>
+    <string name="btn_more">More</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_next_toy">No</string>
+    <string name="btn_no">No</string>
+    <string name="btn_okay">OK</string>
+    <string name="btn_open_games">Games</string>
+    <string name="btn_open_lullabies">Sounds</string>
+    <string name="btn_open_stories">Stories</string>
+    <string name="btn_play_story">Read Story</string>
+    <string name="btn_previous_toy">Previous</string>
+    <string name="btn_record_message">Record Message</string>
+    <string name="btn_reply">Reply</string>
+    <string name="btn_request_location_permission">Set Location Permissions</string>
+    <string name="btn_rerecord">Re-Record</string>
+    <string name="btn_resend">Resend</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_select_recipients">Select Recipients</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_send_lullaby">Send to <g id="cloudpet_toy_brand">CloudPet</g> &amp; Play</string>
+    <string name="btn_send_message">Send Message</string>
+    <string name="btn_send_to">Send to</string>
+    <string name="btn_send_to_children">"Send message to child's inbox"</string>
+    <string name="btn_send_to_children_retry">Retry sending message</string>
+    <string name="btn_send_to_cloudpet">Send to <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_send_to_named_recipient">Send to <g id="recipient_name">%s</g></string>
+    <string name="btn_show_messages">Message Center</string>
+    <string name="btn_show_my_messages">Messages</string>
+    <string name="btn_switch_profile">Switch Profile</string>
+    <string name="btn_turn_bluetooth_on">Turn Bluetooth On</string>
+    <string name="btn_tutorial">Tutorial</string>
+    <string name="btn_unapprove_message">"Un-approve and remove from child's inbox"</string>
+    <string name="btn_use_toy">Yes</string>
+    <string name="btn_view_permissions">View Permissions</string>
+    <string name="btn_want_buy_cloudpet">I want to buy a <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_want_send_messages">"I want to send messages to
+ a child with a "<g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="btn_yes">Yes</string>
+    <string name="change_password">Change Password</string>
+    <string name="child_message_from">from <g id="sender_name">%s</g></string>
+    <string name="description_setting_password_protect_adult_dashboard">Require account password to access the Adult Dashboard</string>
+    <string name="description_setting_require_message_approval">"Require your approval on each message before it is delivered to your child's inbox"</string>
+    <string name="description_setting_use_child_pins">Setting summary here</string>
+    <string name="empty_spinner_item">None</string>
+    <string name="error_bluetooth_off_child_dashboard">Please turn Bluetooth on to use the Child Dashboard with your <g id="cloudpet_toy_brand">CloudPet</g>.</string>
+    <string name="error_bluetooth_off_setup">Please turn bluetooth on to connect your <g id="cloudpet_toy_brand">CloudPet</g>.</string>
+    <string name="error_connection_failed">There was a problem with your internet connection. Please check your connection and try again.</string>
+    <string name="error_decode_audio_failed">An error occurred while reading the audio file. Please try again.</string>
+    <string name="error_email_taken">An account already exists with this email address. Please login using this account or try another email address.</string>
+    <string name="error_encode_audio_failed">An error occurred while writing the audio file. Please try again.</string>
+    <string name="error_firmware_not_valid">There was a problem loading the firmware update.</string>
+    <string name="error_friend_yourself">You cannot invite yourself to be friends with your own children. Please use another email address.</string>
+    <string name="error_generic">Something has gone wrong. Please try again.</string>
+    <string name="error_get_sound_file_failed">There was a problem downloading your message. Please try again.</string>
+    <string name="error_invalid_login_params">The email or password you have entered is incorrect. Please try again.</string>
+    <string name="error_invalid_profile_info">The profile could not be created with information entered.</string>
+    <string name="error_message_could_not_be_downloaded">An error occurred while downloading this voice message. Please try again later.</string>
+    <string name="error_message_could_not_be_downloaded_no_internet">"An error occurred while downloading this voice message. 
+
+Please check your network connection and try again."</string>
+    <string name="error_message_no_internet">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g>" server. 
+
+Please check your network connection and try again."</string>
+    <string name="error_message_not_sent">An error occurred while sending this voice message. Please try again later.</string>
+    <string name="error_parse_generic">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g> server. Please try again later.</string>
+    <string name="error_parse_generic_no_internet">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g>" server. 
+
+Please check your network connection and try again."</string>
+    <string name="error_password_reset_no_internet">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g>" server. 
+
+Please check your network connection and try again."</string>
+    <string name="error_password_reset_not_sent">An error occurred while sending the password reset email. Please try again later.</string>
+    <string name="error_password_reset_user_does_not_exist">No user found with email <g id="email_address">%s</g></string>
+    <string name="error_passwords_do_not_match">"The passwords you've entered do not match. Please update this and try again."</string>
+    <string name="error_please_enter_display_name">Please enter a display name.</string>
+    <string name="error_please_enter_email">Please enter an email address.</string>
+    <string name="error_please_enter_password">Please enter a password.</string>
+    <string name="error_please_enter_pet_nickname">Please enter a pet nickname.</string>
+    <string name="error_please_enter_valid_display_name">Please enter a valid display name.</string>
+    <string name="error_please_enter_valid_email">Please enter a valid email address.</string>
+    <string name="error_please_enter_valid_password">Please enter a valid password.</string>
+    <string name="error_select_child">Please select at least one child.</string>
+    <string name="error_select_one_or_more_recipients">Please select one or more recipients.</string>
+    <string name="error_send_friend_request_already_sent">A friend request for this email address already exists.</string>
+    <string name="error_send_friend_request_no_internet">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g>" server. 
+
+Please check your network connection and try again."</string>
+    <string name="error_send_friend_request_not_sent">An error occurred while sending friend request. Please try again later.</string>
+    <string name="error_toy_ble_offline">Bluetooth is not enabled. Please enable it and try again.</string>
+    <string name="error_toy_ble_unsupported">Your device does not support Bluetooth Low Energy.</string>
+    <string name="error_toy_busy">Your toy is currently busy. Please try again shortly.</string>
+    <string name="error_toy_disconnected">The connection to your toy has been lost. Please turn it on and then try again.</string>
+    <string name="error_toy_gatt">There was a problem communicating with your toy. Please turn it off and on, and then try again.</string>
+    <string name="error_toy_not_connected">Your toy is currently not connected. Please turn it on and try again.</string>
+    <string name="error_toy_not_connected_for_lullaby_to_cloudpet">You must wait for your <g id="cloudpet_toy_brand">CloudPet</g> to connect before you can send a lullaby to it.</string>
+    <string name="error_toy_not_connected_for_send_to_cloudpet">You must wait for your <g id="cloudpet_toy_brand">CloudPet</g> to connect before you can send a message to it.</string>
+    <string name="error_toy_not_connected_title"><g id="cloudpet_toy_brand">CloudPet</g> Not Connected</string>
+    <string name="error_username_taken">A profile already exists with this username. Please try another username.</string>
+    <string name="error_verification_no_internet">There was a problem communicating with the <g id="cloudpets_brand">CloudPets</g>" server. 
+
+Please check your network connection and try again."</string>
+    <string name="error_verification_not_sent">An error occurred while sending this verification email. Please try again later.</string>
+    <string name="error_wrong_password">"The password you've entered does not match the administrator's account password. Please check your password and try again."</string>
+    <string name="firmware_update_completed_message">"Firmware update complete.
+Please turn your "<g id="cloudpet_toy_brand">CloudPet</g>"'s power OFF and ON before continuing."</string>
+    <string name="firmware_update_completed_title">Firmware Update Successful</string>
+    <string name="firmware_update_failed_message">Firmware update failed. Please try again later.</string>
+    <string name="firmware_update_prompt">Firmware update is required. Tap Continue to start updating.</string>
+    <string name="firmware_update_title">Firmware Update</string>
+    <string name="firmware_updating_title">Firmware Updating</string>
+    <string name="friend_status_accepted">Accepted</string>
+    <string name="friend_status_pending">Pending</string>
+    <string name="friend_status_rejected">Rejected</string>
+    <string name="header_child_friends">"My Child's Friends"</string>
+    <string name="header_children_friends">"My Children's Friends"</string>
+    <string name="header_my_friends">My Friends</string>
+    <string name="hint_audio_permission_denied">Audio recording permission request was denied.</string>
+    <string name="hint_child_profile_name">"Child's First Name"</string>
+    <string name="hint_child_profile_username">Unique Username</string>
+    <string name="hint_display_name">Your display name</string>
+    <string name="hint_email">Your email address</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_enter_password">Enter password</string>
+    <string name="hint_friend_email">"Friend's email address"</string>
+    <string name="hint_location_permission_denied">Location permission request was denied.</string>
+    <string name="hint_location_permission_needed">In order to find the <g id="cloudpet_toy_brand">CloudPet</g>(s) around you, this app needs your location permissions turned on.</string>
+    <string name="hint_parent_name">Administrator Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_pet_name">Name Your <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="hint_photos_permission_denied">Photos permission request was denied.</string>
+    <string name="hint_recording_requires_children_or_friends">To record you must have a child profile on your account or be friends with a child on another account.</string>
+    <string name="hint_registration_age_requirement">You must be at least %d years old to create an account.</string>
+    <string name="hint_retype_password">Re-type password</string>
+    <string name="hint_your_email_address">Your Email Address</string>
+    <string name="invalid_link">Invalid Link</string>
+    <string name="kilobytes_per_second"><g example="123.45" id="number_of_kilobytes_per_second">%1$s</g> KB/s</string>
+    <string name="label_assign_permissions">Assign Permissions</string>
+    <string name="label_birth_day_of_month">Birth Day</string>
+    <string name="label_birth_month">Birth Month</string>
+    <string name="label_birthday_description">We want to wish your child a happy birthday!</string>
+    <string name="label_bluetooth_off">Bluetooth Off</string>
+    <string name="label_child_dash_help_ensure_connection">Make sure your <g id="cloudpet_toy_brand">CloudPet</g> is connected via bluetooth</string>
+    <string name="label_child_dash_help_select_message">Tap My Messages and select the message you want to hear</string>
+    <string name="label_child_dash_help_squeeze_to_listen">Squeeze the blue <g id="cloudpet_toy_brand">CloudPet</g> hand to listen</string>
+    <string name="label_child_dash_help_squeeze_to_start">Squeeze the red <g id="cloudpet_toy_brand">CloudPet</g> hand to start recording</string>
+    <string name="label_child_dash_help_squeeze_to_stop">Squeeze the same hand again to stop recording</string>
+    <string name="label_child_dash_help_tap_send_to_pet">Tap Send to <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="label_child_dash_help_tap_to_send">Tap Send To and select recipients</string>
+    <string name="label_child_messages">"Manage Child's Inbox"</string>
+    <string name="label_choose_friended_children">Who are they allowed to message?</string>
+    <string name="label_connected">Connected</string>
+    <string name="label_connecting">Connecting…</string>
+    <string name="label_detail_less_than_a_minute_ago">Sent seconds ago</string>
+    <string name="label_disconnected">Disconnected</string>
+    <string name="label_disconnecting">Disconnecting…</string>
+    <string name="label_downloading">Downloading…</string>
+    <string name="label_empty_track_length">00:00</string>
+    <string name="label_friend_name_with_relation"><g id="friend_name">%1$s</g> (<g id="friend_relation">%2$s</g>)</string>
+    <string name="label_friend_permission">Friend Permissions</string>
+    <string name="label_less_than_a_minute_ago">seconds ago</string>
+    <string name="label_lullaby_length">Lullaby Length</string>
+    <string name="label_lullaby_volume">Lullaby Volume</string>
+    <string name="label_message_sent_string_format">Sent <g id="date_sent">%1$s</g></string>
+    <string name="label_my_inbox">My Inbox</string>
+    <string name="label_my_profiles">My Profiles</string>
+    <string name="label_request_pending">Request Pending</string>
+    <string name="label_scanning">Scanning…</string>
+    <string name="label_select_lullaby">Select a lullaby:</string>
+    <string name="label_select_one_or_more_recipients">Select one or more recipients:</string>
+    <string name="label_select_story">Select A Story:</string>
+    <string name="lullaby_title_baa_baa_black_sheep">Baa, Baa, Black Sheep</string>
+    <string name="lullaby_title_this_old_man">This Old Man</string>
+    <string name="lullaby_title_twinkle_twinkle_little_star">Twinkle, Twinkle, Little Star</string>
+    <string name="lullaby_title_welsh_lullaby">Welsh Lullaby</string>
+    <string name="message_accepting">Accepting…</string>
+    <string name="message_account_for_adults_only">This <g id="cloudpets_brand">CloudPets</g> account is for adults only!</string>
+    <string name="message_account_not_yet_verified">Your account is not yet verified.</string>
+    <string name="message_addition_wants_to_be_friends"><g id="friend_name">%s</g> wants to be friends</string>
+    <string name="message_adult_no_friends">Want to send messages to children you know? Ask the adult on their account to invite you!</string>
+    <string name="message_barnyard_tutorial">"Welcome to Barnyard Sounds!
+
+ Your "<g id="cloudpets_brand">CloudPets</g> toy will play farm animal sounds in a pattern. After your <g id="cloudpets_brand">CloudPets</g>" toy finishes playing animal sounds, tap the barnyard animals in the same pattern.
+"</string>
+    <string name="message_check_your_cloudpet_is_connected">Check your <g id="cloudpet_toy_brand">CloudPet</g>" is powered ON and connected to the app.
+
+Would you like to try again?"</string>
+    <string name="message_child_dashboard_transition">"Let's go visit "<g id="cloudpet_nickname">%s!</g></string>
+    <string name="message_child_message_approved">Message sent to <g id="child_name">%s</g>"'s inbox!"</string>
+    <string name="message_child_message_unapproved">Message removed from <g id="child_name">%s</g>"'s inbox!"</string>
+    <string name="message_child_post_send_message_to_toy_instructions">The message was sent to your <g id="cloudpet_toy_brand">CloudPet</g>! Squeeze the blue hand to listen.</string>
+    <string name="message_cloudpet_configured">Ready to Go!</string>
+    <string name="message_cloudpet_connected">Is the heart blinking on the <g id="cloudpet_toy_brand">CloudPet</g> you want to connect?</string>
+    <string name="message_complete_connection_finished">Your <g id="cloudpet_toy_brand">CloudPet</g> is now connected!</string>
+    <string name="message_complete_connection_started">Click on your <g id="cloudpet_toy_brand">CloudPet</g>"'s hand with Blue Button to confirm this is the right toy."</string>
+    <string name="message_connecting_error">"We couldn't connect to this "<g id="cloudpet_toy_brand">CloudPet</g>"!
+ Please make sure the "<g id="cloudpet_toy_brand">CloudPet</g> is in range and turned ON.</string>
+    <string name="message_delete_child_profile_confirm">"This will permanently delete this profile and any voice messages previously sent or received by this child. Recipients of these voice messages will no longer have access to this child's recordings!"</string>
+    <string name="message_delete_friend">Are you sure you want to delete this friend?</string>
+    <string name="message_delete_friend_request">Are you sure you want to delete this friend request?</string>
+    <string name="message_delete_voice_message_confirm">Are you sure you want to delete this voice message?</string>
+    <string name="message_discard_changes_confirmation">Are you sure you want to discard your changes?</string>
+    <string name="message_email_not_verified">"You must verify your email address before continuing.
+
+Please click the link in the verification email sent to your inbox.
+
+To resend the verification email, click the Resend button."</string>
+    <string name="message_enter_child_birthday">"Please enter your child's birthday."</string>
+    <string name="message_exit_story_confirm">Are you sure you would like to exit Story Time?</string>
+    <string name="message_for">Message for <g id="recipient_name">%s</g></string>
+    <string name="message_for_me">To Me</string>
+    <string name="message_friend_invite_accepted">A Friend Has Accepted Your Friend Invite!</string>
+    <string name="message_friends_invite_accepted">Friends Have Accepted Your Invites!</string>
+    <string name="message_from">Message from <g id="sender_name">%s</g></string>
+    <string name="message_game_cloudpet_disconnected">Please make sure your <g id="cloudpet_toy_brand">CloudPet</g> is turned ON and in range to continue playing Barnyard Sounds.</string>
+    <string name="message_good_luck_have_fun">Good luck and have fun!</string>
+    <string name="message_leave_barnyard_sounds_confirm">Are you sure you want to leave barnyard sounds?</string>
+    <string name="message_log_out_confirmation">Are you sure you want to log out?</string>
+    <string name="message_new_friend_request">New Friend Request!</string>
+    <string name="message_no_adult_messages">You have no messages.</string>
+    <string name="message_no_child_friends">Want other adults to send messages to your child? Invite them to be friends!</string>
+    <string name="message_no_children">"You have no children on this account.
+
+ Please go to \"Manage Users\" to add a child."</string>
+    <string name="message_no_children_friends">Want other adults to send messages to your children? Invite them to be friends!</string>
+    <string name="message_no_children_short">You have no children on this account.</string>
+    <string name="message_no_friends">Only adults with children on their profile can invite other adults to be friends.</string>
+    <string name="message_no_messages_child_dashboard">Ask an adult to send you a message from their dashboard.</string>
+    <string name="message_onboarding_get_started">Tap the button that describes you best.</string>
+    <string name="message_onboarding_select_pet_avatar">Tap your <g id="cloudpet_toy_brand">CloudPet</g> and give it a name!</string>
+    <string name="message_password_reset_sent_instructions">Follow the steps in your email to reset your password.</string>
+    <string name="message_please_wait">Please wait…</string>
+    <string name="message_reject_friend_request">Are you sure you want to reject this friend request?</string>
+    <string name="message_rejecting">Rejecting…</string>
+    <string name="message_remove_friend">Are you sure you want to remove this friend?</string>
+    <string name="message_removing">Removing…</string>
+    <string name="message_scanning_details">Please be sure that your <g id="cloudpet_toy_brand">CloudPet</g> is in range and turned ON.</string>
+    <string name="message_scanning_error_no_toys">"We couldn't find a "<g id="cloudpet_toy_brand">CloudPet</g>".
+ Please make sure the "<g id="cloudpet_toy_brand">CloudPet</g> is in range and turned ON.</string>
+    <string name="message_scanning_error_out_of_toys">"We couldn't find any more "<g id="cloudpet_toy_brand">CloudPet</g>"s!
+ Please make sure the "<g id="cloudpet_toy_brand">CloudPet</g> is in range and turned ON.</string>
+    <string name="message_sent">Message Sent!</string>
+    <string name="message_sent_to_child">Message Sent! To send the message to a <g id="cloudpet_toy_brand">CloudPet</g>", go to your child's dashboard, tap My Messages and Send To "<g id="cloudpet_toy_brand">CloudPet</g>.</string>
+    <string name="message_setup_another_toy_question">Would you like to add another <g id="cloudpet_toy_brand">CloudPet</g> or child profile?</string>
+    <string name="message_this_app_uses_ble">The <g id="cloudpets_brand">CloudPets</g> app uses Bluetooth Low Energy to connect to your <g id="cloudpet_toy_brand">CloudPet</g>.</string>
+    <string name="message_unique_username">The unique username is used to identify each child profile on the Toy Cloud. It cannot be the same as any other username already in use.</string>
+    <string name="message_wait_for_cloudpet_connect">Please wait for your <g id="cloudpet_toy_brand">CloudPet</g> to connect before starting.</string>
+    <string name="new_password">New Password for %s</string>
+    <string name="notification_download_complete">Download complete</string>
+    <string name="notification_download_failed">Download unsuccessful</string>
+    <string name="relation_aunt">Aunt</string>
+    <string name="relation_cousin">Cousin</string>
+    <string name="relation_father">Father</string>
+    <string name="relation_grandfather">Grandfather</string>
+    <string name="relation_grandmother">Grandmother</string>
+    <string name="relation_mother">Mother</string>
+    <string name="relation_other">Other</string>
+    <string name="relation_uncle">Uncle</string>
+    <string name="reset_password">Reset Your Password</string>
+    <string name="section_heading_family">Family</string>
+    <string name="section_heading_friends">Friends</string>
+    <string name="spinner_placeholder_day">Birth Day</string>
+    <string name="spinner_placeholder_month">Birth Month</string>
+    <string name="state_completed">Download finished</string>
+    <string name="state_connecting">Connecting to the download server</string>
+    <string name="state_downloading">Downloading resources</string>
+    <string name="state_failed">Download failed</string>
+    <string name="state_failed_cancelled">Download cancelled</string>
+    <string name="state_failed_fetching_url">Download failed because the resources could not be found</string>
+    <string name="state_failed_sdcard_full">Download failed because the external storage is full</string>
+    <string name="state_failed_unlicensed">Download failed because you may not have installed this app from Google Play</string>
+    <string name="state_fetching_url">Looking for resources to download</string>
+    <string name="state_idle">Waiting for download to start</string>
+    <string name="state_paused_by_request">Download paused</string>
+    <string name="state_paused_network_setup_failure">Download paused. Test a website in browser</string>
+    <string name="state_paused_network_unavailable">Download paused because no network is available</string>
+    <string name="state_paused_roaming">Download paused because you are roaming</string>
+    <string name="state_paused_sdcard_unavailable">Download paused because the external storage is unavailable</string>
+    <string name="state_paused_wifi_disabled">Download paused because wifi is disabled</string>
+    <string name="state_paused_wifi_unavailable">Download paused because wifi is unavailable</string>
+    <string name="state_unknown">Starting…</string>
+    <string name="story_sassy_cassie_title">Sassy Cassie</string>
+    <string name="story_starburst_rainbow_journey_title">"Starburst's Rainbow Journey"</string>
+    <string name="story_worst_parents_title">The Worst Parents Ever</string>
+    <string name="successfully_reset_password">Successfully updated your password!</string>
+    <string name="successfully_verified">Successfully verified your email!</string>
+    <string name="terms_of_use">"PLEASE READ THE TERMS AND CONDITIONS.
+
+BY DOWNLOADING THE "<g id="cloudpets_brand_bold">CLOUDPETS</g> APP, USING THE <g id="cloudpets_brand_bold">CLOUDPETS</g>" APP OR CLICKING/CHECKING ON THE ACCEPT/AGREE BOX/BUTTON, YOU ACKNOWLEDGE AND AGREE THAT: (I) YOU HAVE READ ALL OF THE TERMS AND CONDITIONS OF THE TERMS (INCLUDING, THE TERMS AND CONDITIONS OF THE THIRD PARTY TERMS THAT ARE INCORPORATED INTO THE TERMS BY REFERENCE); (II) YOU UNDERSTAND ALL OF THE TERMS AND CONDITIONS OF THE TERMS; AND (III) YOU AGREE TO BE BOUND BY ALL OF THE TERMS AND CONDITIONS OF THE TERMS AND ALL APPLICABLE LAWS.
+
+IF YOU DO NOT AGREE TO ALL OF THE TERMS AND CONDITIONS OF THE TERMS, "<g id="cloudpets_brand_bold">CLOUDPETS</g> IS UNWILLING TO GRANT YOU (OR YOUR CHILDREN) THE RIGHT TO USE THE <g id="cloudpets_brand_bold">CLOUDPETS</g>" APP.
+
+THE TERMS CONSTITUTE AN ENFORCEABLE AGREEMENT BY AND BETWEEN YOU AND "<g id="cloudpets_brand_bold">CLOUDPETS</g>".
+
+FOR PURPOSES OF THE TERMS, \""<g id="cloudpets_brand_bold">CLOUDPETS</g>\", \"US\", \"WE\" OR \"OUR\" MEANS AND INCLUDES <g id="cloudpets_brand_bold">CLOUDPETS</g> AND ITS INVESTORS, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, REPRESENTATIVES AND ASSIGNS. \"YOU\" MEANS EACH PERSON WHO ACCESSES OR USES THE <g id="cloudpets_brand_bold">CLOUDPETS</g> APP (INCLUDING, BUT NOT LIMITED TO YOUR CHILDREN), WHETHER OR NOT SUCH PERSON PERSONALLY INSTALLED THE <g id="cloudpets_brand_bold">CLOUDPETS</g>" APP. FURTHER, \"YOUR CHILDREN\" OR \"YOUR CHILD\" REFERS TO YOUR CHILD, YOUR CHILDREN OR A CHILD OR CHILDREN UNDER YOUR GUARDIANSHIP OR SUPERVISION.
+
+Privacy
+
+Please refer to the Privacy Policy below for information on how "<g id="cloudpets_brand">CloudPets</g> collects, uses and discloses your information when you use the <g id="cloudpets_brand">CloudPets</g>" App.
+
+Creating an Account
+
+By creating an account for the "<g id="cloudpets_brand">CloudPets</g>" App, you represent and warrant that you are 13 years of age or older. If you are under 13 years of age, you are expected to use a parent's user account. In consideration of your use of the "<g id="cloudpets_brand">CloudPets</g> App, you agree to: (i) provide accurate, current and complete information about you as may be prompted by any registration forms via the <g id="cloudpets_brand">CloudPets</g> App (\"Registration Data\"); (ii) maintain the security of your password and identification; (iii) maintain and promptly update the Registration Data, and any other information you provide to <g id="cloudpets_brand">CloudPets</g>, to keep it accurate, current and complete; and (iv) accept all risks of unauthorized access to the Registration Data and any other information you provide to <g id="cloudpets_brand">CloudPets</g>. You are responsible for safeguarding the password that you use to access the <g id="cloudpets_brand">CloudPets</g> App. When you register for the <g id="cloudpets_brand">CloudPets</g> App, you should use a strong password, including a combination of upper and lower case letters. We suggest that you not use the same password for the <g id="cloudpets_brand">CloudPets</g>" App that you use for other applications or services.
+
+License
+
+Subject to the terms, conditions and limitations set forth in the Terms, "<g id="cloudpets_brand">CloudPets</g> grants you a nonexclusive, non-transferable and revocable license to use the <g id="cloudpets_brand">CloudPets</g> App on any mobile device that you own or control. The terms of the license will also govern any upgrades provided by <g id="cloudpets_brand">CloudPets</g> that replace and/or supplement the original <g id="cloudpets_brand">CloudPets</g>" App, unless such upgrade is accompanied by a separate license, in which case the terms of that license will govern.
+
+Restrictions
+
+You agree not to do, or authorize or permit any third party to do, any of the following: (i) copy, reproduce or distribute the "<g id="cloudpets_brand">CloudPets</g> App; (ii) make the <g id="cloudpets_brand">CloudPets</g> App available over a network where it could be used by multiple devices at the same time; (iii) sell, license, rent, assign, lease, lend, redistribute or sublicense the <g id="cloudpets_brand">CloudPets</g> App; (iv) modify, port, translate, or create derivative works of the <g id="cloudpets_brand">CloudPets</g> App; (v) decompile, disassemble, reverse engineer or otherwise attempt to derive, reconstruct, identify or discover any source code, underlying ideas, or algorithms of the <g id="cloudpets_brand">CloudPets</g> App by any means (except as and only to the extent any of these restrictions are prohibited by applicable law); (vi) submit any automated or recorded requests to the <g id="cloudpets_brand">CloudPets</g> App; (vii) use the <g id="cloudpets_brand">CloudPets</g> App for commercial use; (viii) use the <g id="cloudpets_brand">CloudPets</g> App for purposes of comparison with or benchmarking against products or services made available by third parties; (ix) knowingly take any action that would cause the <g id="cloudpets_brand">CloudPets</g> App to be placed in the public domain; and (x) remove, alter or obscure any copyright, trademark or other proprietary rights notice or labels on or in the <g id="cloudpets_brand">CloudPets</g> App. If you violate any of the restrictions set forth in the Terms, your right to use the <g id="cloudpets_brand">CloudPets</g> App will immediately cease and you may have infringed the copyright and other rights of <g id="cloudpets_brand">CloudPets</g>, which may subject you to prosecution and damages. <g id="cloudpets_brand">CloudPets</g> reserves all rights not expressly granted in the Terms, and no licenses are granted by <g id="cloudpets_brand">CloudPets</g>" to you under the Terms, whether by implication, estoppel or otherwise, except as expressly set forth in the Terms.
+
+Consent to Use of Data and Communications
+
+You agree that "<g id="cloudpets_brand">CloudPets</g> may collect and use technical data, personal information and related information in connection with your use of the <g id="cloudpets_brand">CloudPets</g> App including, but not limited to, contact information and technical information about your device, system and the <g id="cloudpets_brand">CloudPets</g> App software, and peripherals, that are gathered periodically to facilitate the features and functionality of the <g id="cloudpets_brand">CloudPets</g> App and software updates, product support and other services. Please see our Privacy Policy for more information about how <g id="cloudpets_brand">CloudPets</g> collects, uses, stores and discloses personal information collected through the <g id="cloudpets_brand">CloudPets</g> App. You also consent to our communicating with you about the <g id="cloudpets_brand">CloudPets</g> App or in connection with the features, functions and activities contained in the <g id="cloudpets_brand">CloudPets</g>" App.
+
+Speech Data, Recordings and Third Party Components Use of Speech Data and Recordings
+
+You acknowledge and agree that when users interact with "<g id="cloudpets_brand">CloudPets</g>, <g id="cloudpets_brand">CloudPets</g> may capture audio recordings (the \"Recordings\") of such interactions, and that <g id="cloudpets_brand">CloudPets</g> and its licensors and contractors may use, store such Recordings and the speech data contained therein (the \"Speech Data\"), including your voice and likeness as captured therein, to provide and maintain the <g id="cloudpets_brand">CloudPets</g> App, and provide customer service. <g id="cloudpets_brand">CloudPets</g>" and/or its licensors will not use the information contained in any Speech Data for any purpose except as set forth above. Because audio files constitute personal information under the Children's Online Privacy Protection Act, parents are expected to consent to the use of the "<g id="cloudpets_brand">CloudPets</g> App by their children who are under 13 before <g id="cloudpets_brand">CloudPets</g>" will save or store any Recordings. Therefore, the foregoing does not apply to children under 13 until such consent is obtained.
+
+Recordings
+
+The "<g id="cloudpets_brand">CloudPets</g> App will allow you, the account holder, to share certain Recordings that you (and/or your children) create using the <g id="cloudpets_brand">CloudPets</g>" App with others by sending a message, or by sharing on your website or third party websites (including Facebook, Twitter and YouTube (each, a \"Third Party Site\")). Please remember that when you share the Recordings with a Third Party Site, such Recordings may become subject to third party website policies and rules.
+
+You acknowledge and agree that you (on behalf of yourself and your child) release and discharge "<g id="cloudpets_brand">CloudPets</g>, its administrators, directors, officers, employees, agents, sponsors and advertisers (collectively, \"<g id="cloudpets_brand">CloudPets</g> Parties\") from all liability to you and your child for any claims that the use of the Recordings by <g id="cloudpets_brand">CloudPets</g> (or any party on its behalf) violates any of your rights, including intellectual property rights or rights of publicity or privacy. Further, you (on behalf of yourself and your child) convent not to sue any <g id="cloudpets_brand">CloudPets</g> Parties with respect to any Recordings. You also acknowledge and agree that neither you nor your child will be entitled to any additional compensation for the use of any of the Recordings by <g id="cloudpets_brand">CloudPets</g>" or a party on its behalf.
+
+Feedback
+
+Any suggestions, comments or other feedback provided by you or your children to us with respect to the "<g id="cloudpets_brand">CloudPets</g>" App and/or our products and services will constitute our confidential information. We will be free to use, disclose, reproduce, license and otherwise distribute, and exploit this feedback as we see fit, entirely without obligation or restriction of any kind on account of intellectual property rights or otherwise.
+
+Conduct
+
+You agree that you are solely responsible for your conduct (and the conduct of anyone using your account) with respect to the "<g id="cloudpets_brand">CloudPets</g> App, and you agree that you will not do any of the following in connection with the <g id="cloudpets_brand">CloudPets</g>" App:
+
+\u0009•\u0009Use the "<g id="cloudpets_brand">CloudPets</g> App in any manner that could damage, disable, overburden or impair the functioning of the <g id="cloudpets_brand">CloudPets</g>" App in any manner;
+\u0009•\u0009Use the "<g id="cloudpets_brand">CloudPets</g>" App for any illegal or unauthorized purpose or engage in, encourage, or promote any illegal activity, or any activity that violates the Terms;
+\u0009•\u0009Modify, adapt or hack the "<g id="cloudpets_brand">CloudPets</g>" App; or
+\u0009•\u0009Infringe upon or violate the rights of "<g id="cloudpets_brand">CloudPets</g>".
+\u0009•\u0009Any use of the "<g id="cloudpets_brand">CloudPets</g> App in violation of the Terms may result in, among other things, termination or suspension of your rights to use the <g id="cloudpets_brand">CloudPets</g>" App.
+
+Modification of Terms
+
+CloudPets reserves the right to change or modify any of the terms and conditions contained in the Terms, or any policy or guideline of the "<g id="cloudpets_brand">CloudPets</g> App, at any time and in its sole discretion by posting the changes/modifications via the <g id="cloudpets_brand">CloudPets</g> App. Additionally, notice may be provided by sending an email to you or by such other form of notice as determined by <g id="cloudpets_brand">CloudPets</g>. Changes/modifications will only become effective at the end of the 30 day period commencing upon the posting of the changes/modifications via the <g id="cloudpets_brand">CloudPets</g> App (\"Notice Period\"). If you disagree with any changes/modifications, please stop using the <g id="cloudpets_brand">CloudPets</g> App within the Notice Period. Your use of the <g id="cloudpets_brand">CloudPets</g> App after the Notice Period will constitute your acceptance of the changes/modifications. Also, we recommend that you review the Terms whenever you access the <g id="cloudpets_brand">CloudPets</g> App and, at least, every 30 days to make sure that you understand the terms and conditions that will apply to your use of the <g id="cloudpets_brand">CloudPets</g>" App.
+
+Suspension and Termination
+
+CloudPets may suspend and/or terminate your rights with respect to the "<g id="cloudpets_brand">CloudPets</g> App for any reason or for no reason at all and with or without notice at <g id="cloudpets_brand">CloudPets</g>"'s sole discretion. Suspension and/or termination may include restricting access to and use of the "<g id="cloudpets_brand">CloudPets</g> App. If your rights with respect to the <g id="cloudpets_brand">CloudPets</g> App are suspended and/or terminated, you agree to make no further use of the <g id="cloudpets_brand">CloudPets</g> App during suspension or after termination. <g id="cloudpets_brand">CloudPets</g> reserves the right, but does not undertake any duty, to take appropriate legal action including, but not limited to, the pursuit of civil, criminal and/or injunctive redress against you for continuing to use the <g id="cloudpets_brand">CloudPets</g> App during suspension or after termination, and you agree that <g id="cloudpets_brand">CloudPets</g>" may recover its reasonable attorney's fees and court costs from you for such actions. Even while your membership is suspended and after it is terminated, the Terms will remain enforceable against you. All of the terms and conditions of the Terms survive any termination of the Terms (except the \"License\" and \"Consent to Use of Data and Communications\" sections).
+
+Disclaimers
+
+YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE "<g id="cloudpets_brand">CloudPets</g> APP IS AT YOUR SOLE RISK. THE <g id="cloudpets_brand">CloudPets</g> APP IS PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS. <g id="cloudpets_brand">CloudPets</g> DISCLAIMS ANY AND ALL WARRANTIES AND REPRESENTATIONS (EXPRESS OR IMPLIED, ORAL OR WRITTEN) WITH RESPECT TO THE TERMS, THE <g id="cloudpets_brand">CloudPets</g> APP, THE <g id="cloudpets_brand">CloudPets</g> MATERIAL, ANY <g id="cloudpets_brand">CloudPets</g> PRODUCTS AND SERVICES, THE RECORDINGS, THIRD PARTY SITES AND THIRD PARTY TRADEMARKS WHETHER ALLEGED TO ARISE BY OPERATION OF LAW, BY REASON OF CUSTOM OR USAGE IN THE TRADE, BY COURSE OF DEALING OR OTHERWISE, INCLUDING ANY AND ALL: (I) WARRANTIES OF MERCHANTABILITY; (II) WARRANTIES OF FITNESS OR SUITABILITY FOR ANY PURPOSE (WHETHER OR NOT <g id="cloudpets_brand">CloudPets</g> KNOWS, HAS REASON TO KNOW, HAS BEEN ADVISED OR IS OTHERWISE AWARE OF ANY SUCH PURPOSE); AND (III) WARRANTIES OF NON-INFRINGEMENT OR CONDITION OF TITLE. <g id="cloudpets_brand">CloudPets</g> DOES NOT WARRANT THAT: (A) THE FUNCTIONS CONTAINED IN THE <g id="cloudpets_brand">CloudPets</g> APP WILL BE ACCURATE OR MEET YOUR REQUIREMENTS; (B) THE OPERATION OF THE <g id="cloudpets_brand">CloudPets</g> APP WILL BE UNINTERRUPTED OR ERROR-FREE; OR (C) ANY DEFECTS IN THE <g id="cloudpets_brand">CloudPets</g> APP WILL BE CORRECTED. NO ORAL OR WRITTEN INFORMATION, GUIDELINES OR ADVICE GIVEN BY <g id="cloudpets_brand">CloudPets</g>" OR ITS AUTHORIZED REPRESENTATIVE WILL CREATE A WARRANTY.
+
+Indemnification
+
+You agree, at your sole expense, to defend, indemnify and hold us and our licensors, harmless from and against any and all actual or threatened suits, actions, proceedings (at law or in equity), claims, damages, payments, deficiencies, fines, judgments, settlements, liabilities, losses, costs and expenses (including, but not limited to, reasonable attorney fees, costs, penalties, interest and disbursements) caused by, arising out of, resulting from, attributable to or in any way incidental to: (i) your conduct; or (ii) your violation (or alleged violation) of the Terms or the rights of any third party.
+
+Limitation of Liability
+
+TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT WILL "<g id="cloudpets_brand_bold">CLOUDPETS</g> BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INCIDENTAL, SPECIAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER, ARISING OUT OF OR RELATED TO THE <g id="cloudpets_brand_bold">CLOUDPETS</g> APP, THE <g id="cloudpets_brand_bold">CLOUDPETS</g> MATERIAL, ANY <g id="cloudpets_brand_bold">CLOUDPETS</g> PRODUCTS OR SERVICES, THE RECORDINGS, THIRD PARTY SITES OR THIRD PARTY TRADEMARKS, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE, WHETHER ACTIVE, PASSIVE OR IMPUTED), PRODUCT LIABILITY, STRICT LIABILITY OR OTHER THEORY) AND EVEN IF <g id="cloudpets_brand_bold">CLOUDPETS</g>" HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU.
+
+No Third Party Beneficiaries
+
+Except as otherwise expressly elsewhere in the Terms, there will be no third party beneficiaries to the Terms.
+
+Modifications to the "<g id="cloudpets_brand">CloudPets</g>" App
+
+CloudPets reserves the right in its sole discretion to review, improve, modify or discontinue, temporarily or permanently, the "<g id="cloudpets_brand">CloudPets</g> App and/or any features, information, materials or content on the <g id="cloudpets_brand">CloudPets</g> App with or without notice to you. You agree that <g id="cloudpets_brand">CloudPets</g> will not be liable to you or any third party for any modification or discontinuance of the <g id="cloudpets_brand">CloudPets</g>" App or any portion thereof.
+
+Copyright Complaints
+
+In accordance with the Digital Millennium Copyright Act of 1998 (\"DMCA\"), the text of which may be found on the U.S. Copyright Office website at http://www.copyright.gov/legislation/dmca.pdf, and other applicable law, "<g id="cloudpets_brand">CloudPets</g> has adopted a policy of terminating, in appropriate circumstances and at <g id="cloudpets_brand">CloudPets</g>"'s sole discretion, account holders who are deemed to be repeat infringers. "<g id="cloudpets_brand">CloudPets</g> may also, at its sole discretion, limit access to the <g id="cloudpets_brand">CloudPets</g> App and/or terminate the accounts of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement. <g id="cloudpets_brand">CloudPets</g> will respond to claims of copyright infringement committed using the <g id="cloudpets_brand">CloudPets</g> App that are reported to <g id="cloudpets_brand">CloudPets</g>"'s Designated Copyright Agent, identified in the sample notice below.
+
+If you knowingly misrepresent in your notification that the material or activity is infringing, you will be liable for any damages, including costs and attorneys' fees, incurred by us or the alleged infringer as the result of our relying upon such misrepresentation in removing or disabling access to the material or activity claimed to be infringing.
+
+
+Privacy Policy 
+
+CloudPets Privacy Policy
+
+Last Revised: January 15, 2016
+
+This privacy policy (“Policy”) is in reference to the "<g id="cloudpets_brand">CloudPets</g>™ Mobile App (the “Mobile App”) and the message processing services for <g id="cloudpets_brand">CloudPets</g>™ (the “Services”). This privacy policy explains how personal information is collected, used, and disclosed by <g id="cloudpets_brand">CloudPets</g> LLC., in connection with your or your child’s use of <g id="cloudpets_brand">CloudPets</g> and the Services; including the collection of audio recordings that are captured when users interact with <g id="cloudpets_brand">CloudPets</g> by pressing and holding the “Record” button (collectively the \"Recordings\"). All references to the term \"you\" or \"parent\" in this privacy policy shall include legal guardians, and all references to \"children\" or \"child\" shall mean children less than 13 years of age. The use of <g id="cloudpets_brand">CloudPets</g>"™ requires parental consent, and by providing consent, you are certifying that you are the parent for the children who use the Services or an adult approved by a parent to send messages to a child.
+
+We may change this Policy from time to time. If we make changes, we will notify you by revising the date at the top of the Policy and, in some cases (such as for material changes), we will provide you with additional notice (such as adding a statement to our web site’s homepage or sending you a notification) and/or obtain your prior verifiable consent.
+
+What Information Do We Collect?
+
+Active Collection: When the Mobile App is downloaded, we collect a parental email and password in connection with obtaining parental consent and creating a parent account. Parents may also provide additional information, when they set up "<g id="cloudpets_brand">CloudPets</g>" or through the parent account, such as indicating their child’s name and other conversation options that are used to improve the conversational experience.
+
+Recordings: When children or other users talk with "<g id="cloudpets_brand">CloudPets</g> by pressing and holding the “Record” button, we capture the Recordings . These Recordings are considered personal information under the Children’s Online Privacy Protection Act (“COPPA”). We cannot prevent children from providing personal information when they talk with <g id="cloudpets_brand">CloudPets</g>".
+
+Passive Collection: When the Mobile App or Services are being used, some information is also automatically collected. For example, we may automatically collect certain information when you use the Mobile App, such as device model and name, operating system and version, the browser type, mobile network information, preferred language, time zone, and activity on the Mobile App. We may also automatically collect certain logistical information in server logs, including information about how various features of the Mobile App and Services are used and information about the number, frequency and length of each session. On our Site, we may also automatically collect certain information through the use of \"cookies.\" Cookies are small data files stored on your hard drive at the request of a website. Among other things, cookies help us analyze and improve our Site and Services, and our other products and services, and the experience of our users. If we link cookies to any personally identifying information, we will treat this information as personal information. If you wish to block, erase, or be warned of cookies, please refer to your browser manufacturer to learn about these functions. However, if you choose to remove or reject cookies, this could affect certain features of the Site or Services.
+
+How Do We Use the Personal Information We Collect?
+
+CloudPets LLC uses parental email in order to obtain parental consent for your children's use of the Services and to create a parent account, which allows you to access the Parental Settings section of the "<g id="cloudpets_brand">CloudPets</g>" app.
+
+CloudPets LLC may also use the parental email and other information parents provide, or that is automatically collected, through the Mobile App or the parent account as follows:
+\u0009•\u0009To provide and maintain the Services and to send you notifications, confirmations, updates, product announcements and otherwise facilitate your or your children's use of, and our administration and operation of, the Services;
+\u0009•\u0009To respond to your communications and requests, provide customer service, notify you about important changes to our Services and our terms and policies and otherwise contact you about your or your children's use of the Services;
+\u0009•\u0009To monitor and analyze usage and activities regarding the Site and the Mobile App; and
+\u0009•\u0009To provide you with news and information about "<g id="cloudpets_brand">CloudPets</g> LLC, <g id="cloudpets_brand">CloudPets</g>", and products, services, events, activities, offers, and promotions we think will be of interest to you (with your consent where prior consent is required by applicable law) unless you opt out of such use.
+
+We may store and process personal information in the United States and other countries.
+
+Does the Services enable children to make personal information publicly available?
+
+Although parents may access Recordings created through their parent account, we do not knowingly allow children under 13 to share Recordings outside of their parent approved friends list or otherwise make any personal information publicly available.
+
+What Information Do We Share With Third Parties?
+
+We will not share the personal information we collect through the Services with third parties, except as described in this Policy. For example, we may share Recordings and other personal information as follows (subject to any applicable COPPA requirements or restrictions):
+\u0009•\u0009When you give us your consent to do so, including if we collect account related information from you and notify you that the information you provide will be shared in a particular manner and you provide such information;
+\u0009•\u0009When we believe in good faith that we are lawfully authorized or required to do so or that doing so is reasonably necessary or appropriate to (a) comply with any law or legal processes or respond to lawful requests or legal authorities, including responding to lawful subpoenas, warrants, or court orders; or (b) protect the rights, property, or safety of "<g id="cloudpets_brand">CloudPets</g>" LLC, our users, our employees, copyright owners, third parties or the public, to enforce or apply this Policy, our Terms of Use, or our other policies or agreements; and
+\u0009•\u0009In connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition, or in any other situation where personal information may be disclosed or transferred as one of the business assets of "<g id="cloudpets_brand">CloudPets</g>" LLC
+
+We may also share aggregated or anonymized information that does not constitute personal information. For example, we may share analytics and other aggregate information about users’ activities on our Services that do not contain any personal information with parties we partner with.
+
+Service Providers are not authorized to use any Recordings or other personal information they receive from us for their own purposes (e.g., for purposes not related to providing, maintaining, testing, developing or improving the services and technology being provided to "<g id="cloudpets_brand">CloudPets</g>" LLC).. These Service Providers and other third parties may not use any Recordings, feature extracted data, transcripts or any content contained therein to contact or advertise to children.
+
+International Users
+
+CloudPets LLC is based in the United States and the information we collect is governed by U.S. law. By accessing or using the Services or otherwise providing information to us, you consent to the processing and transfer of information in and to the U.S. and other countries. If information is shared in accordance with this privacy policy, it may be disclosed to overseas recipients located outside of the European Economic Area, including countries that do not have laws that protect personal information in the same manner as countries within the European Economic Area.
+
+What Steps Do We Take To Protect Your Information Online?
+
+We take reasonable measures to protect personal information in an effort to prevent loss, misuse, and unauthorized access, disclosure, alteration, and destruction. For example, we use secure, encrypted communications when transferring all personal information over the web. Please be aware, however, that despite our efforts, no security measures are perfect or impenetrable and there is no method of data transmission that can be guaranteed to protect against any interception or other type of misuse.
+
+What Choices Do You Have Regarding the Use of Your Information?
+
+You may choose to permanently delete your "<g id="cloudpets_brand">CloudPets</g> LLC account. We will delete all personal information connected with your account when you close your account in this manner except that cached copies may exist for a certain period of time after the account is deleted. Account deletion will be performed at your request, through the <g id="cloudpets_brand">CloudPets</g>" support website located at https://cloudpets.zendesk.com/hc/en-us.
+
+Under applicable privacy legislation you may have rights of access to and correction of the personal information held by us. For example, under COPPA, parents have the right to review or have deleted any personal information (including Recordings) collected from their child that are retained by "<g id="cloudpets_brand">CloudPets</g>" LLC and parents may refuse to permit further collection or use of their child's personal information. You may review and delete Recordings that are in your parent account via the Message Center page when you log in to "<g id="cloudpets_brand">CloudPets</g>" app. To review or request deletion of Recordings that are no longer in your parent account, but that we may retain for research and development purposes, please go to https://cloudpets.zendesk.com/hc/en-us. If you wish to stop any further collection or use of your child’s personal information, or delete your email, you must delete your account. 
+
+You may \"opt out\" of receiving marketing or promotional emails from us by following the unsubscribe instructions in those emails. Where required by applicable law, we will get your consent prior to sending you such emails.
+
+Questions or Concerns?
+
+If you have any questions about this Policy or any concerns about your privacy, please contact us at https://cloudpets.zendesk.com/hc/en-us.
+
+
+"</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_validation_failed">Data File Validation Failed.</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="time_remaining">Time remaining: <g example="01:23" id="time_remaining">%1$s</g></string>
+    <string name="time_remaining_notification"><g example="01:23" id="time_remaining">%1$s</g> left</string>
+    <string name="title_activity_adult_dashboard">Parent Dashboard</string>
+    <string name="title_activity_adult_voice_message">Manage Voice Message</string>
+    <string name="title_activity_barnyard_sounds_game">Barnyard Sounds</string>
+    <string name="title_activity_child_dashboard">Child Dashboard</string>
+    <string name="title_activity_create_account">Create Account</string>
+    <string name="title_activity_create_child_profile">Create Child Profile</string>
+    <string name="title_activity_edit_child_profile">Edit Profile</string>
+    <string name="title_activity_edit_permissions">Edit Permissions</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_invite_friend">Invite Friend</string>
+    <string name="title_activity_log_in">"Log In to Your
+ "<g id="cloudpets_brand">CloudPets</g> Account!</string>
+    <string name="title_activity_manage_profiles">Manage Users</string>
+    <string name="title_activity_message_center">Message Center</string>
+    <string name="title_activity_onboarding_survey"><g id="cloudpets_brand">CloudPets</g></string>
+    <string name="title_activity_play_story">Stories</string>
+    <string name="title_activity_record_and_send_message">Record</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_terms_of_use">Terms of Use</string>
+    <string name="title_activity_voice_message_for">Message for <g id="recipient_name">%s</g></string>
+    <string name="title_activity_voice_message_for_me">Message for Me</string>
+    <string name="title_activity_welcome"><g id="cloudpets_brand">CloudPets</g></string>
+    <string name="title_add_child_profile">Add a Child Profile</string>
+    <string name="title_bluetooth_off">Bluetooth is Off</string>
+    <string name="title_checking_password">Checking Password</string>
+    <string name="title_checking_verification_email">Checking…</string>
+    <string name="title_child_dashboard_help">"How to Use
+Your "<g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="title_child_dashboard_transition">Hi, <g id="child_name">%s!</g></string>
+    <string name="title_cloudpet_connected">We Found a <g id="cloudpet_toy_brand">CloudPet</g>!</string>
+    <string name="title_complete_connection_finished">Connection Complete!</string>
+    <string name="title_complete_connection_started">Complete The Connection</string>
+    <string name="title_create_account">Create Account</string>
+    <string name="title_creating_account">Creating Account</string>
+    <string name="title_delete_child_profile_confirm">Delete this profile and voice messages?</string>
+    <string name="title_delete_friend">Delete Friend</string>
+    <string name="title_dialog_birthday">Enter Birthday</string>
+    <string name="title_dialog_delete_message">Delete Voice Message</string>
+    <string name="title_dialog_incomplete_birthday">Incomplete Birthday</string>
+    <string name="title_discard_changes_confirmation">Discard Changes</string>
+    <string name="title_downloading_toy_message">Incoming Recording</string>
+    <string name="title_edit_child_profile">Edit Child Profile</string>
+    <string name="title_error">Uh Oh!</string>
+    <string name="title_exit_story">Exit Story Time</string>
+    <string name="title_expansion_app_data_required">App Data Required</string>
+    <string name="title_fragment_select_pet_avatar">Select a Character!</string>
+    <string name="title_friend_request">Friend Request</string>
+    <string name="title_game_cloudpet_disconnected">Searching for <g id="cloudpet_toy_brand">CloudPet</g>…</string>
+    <string name="title_leave_barnyard_sounds">Leave Barnyard Sounds</string>
+    <string name="title_listen">Listen</string>
+    <string name="title_log_out">Log Out</string>
+    <string name="title_logging_in">Logging in to the Toy Cloud</string>
+    <string name="title_lullabies">Lullabies</string>
+    <string name="title_message">Message</string>
+    <string name="title_message_sent">Message sent!</string>
+    <string name="title_my_messages">My Messages</string>
+    <string name="title_no_messages">No Messages?</string>
+    <string name="title_onboarding_hello">Hello!</string>
+    <string name="title_onboarding_no_pet">Tell Us More!</string>
+    <string name="title_password_reset_sent">Password reset email sent!</string>
+    <string name="title_permission_needed">We Need Your Permission!</string>
+    <string name="title_pref_enable_adult_dashboard_background_music">Music - Adult Dashboard</string>
+    <string name="title_pref_enable_child_dashboard_background_music">Music - Child Dashboard</string>
+    <string name="title_pref_enable_child_dashboard_sounds">Sound Effects - Child Dashboard</string>
+    <string name="title_pref_log_out">Log Out</string>
+    <string name="title_pref_password_protect_adult_dashboard">Password Protect Adult Dashboard</string>
+    <string name="title_pref_require_message_approval">Child Message Control</string>
+    <string name="title_pref_reset_password">Reset Password</string>
+    <string name="title_pref_sound_effects_and_music">Sound Effects &amp; Music</string>
+    <string name="title_pref_terms_of_use">Terms of Use</string>
+    <string name="title_pref_use_child_pins">Use Child PINs</string>
+    <string name="title_record">"Press And Hold
+To Record A Message"</string>
+    <string name="title_resending_verification">Resending Verification Email</string>
+    <string name="title_resetting_password">Resetting Password</string>
+    <string name="title_saving_profile">Saving Profile</string>
+    <string name="title_scanning">Locating Your <g id="cloudpet_toy_brand">CloudPet</g>!</string>
+    <string name="title_scanning_error">Uh Oh!</string>
+    <string name="title_send">Send</string>
+    <string name="title_send_recorded_message">"Would You Like
+To Send This Message?"</string>
+    <string name="title_send_to">Send To</string>
+    <string name="title_sending_friend_invite">Sending Invite</string>
+    <string name="title_sending_lullaby_to_toy">Sending lullaby to <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="title_sending_message_to_recipients">"Sending message to the child's inbox"</string>
+    <string name="title_sending_message_to_toy">Sending message to your <g id="cloudpet_toy_brand">CloudPet</g></string>
+    <string name="title_sending_message_to_toy_cloud">Sending message to the Toy Cloud</string>
+    <string name="title_sending_to_toy">Sending <g example="Chicken" id="barnyard_animal_type">%s</g> to Toy</string>
+    <string name="title_setup_complete">Setup Complete!</string>
+    <string name="title_stories">Stories</string>
+    <string name="title_unique_username">Unique Username</string>
+    <string name="title_verify_email">Please Verify Your Email</string>
+    <string name="title_waiting_for_toy">Toy is busy</string>
+    <string name="toast_message_successful_friend_permission_update">Successfully updated friend requests.</string>
+    <string name="toast_message_successfully_sent_friend_request">Successfully sent friend request.</string>
+    <string name="toast_message_updating_friend_permissions">Updating friend requests…</string>
+    <string name="tooltip_start_here">Start Here!</string>
+    <string name="whats_new_text">"The CloudPets App now contains 3, full length, children's stories to read along with your child. Minor bug fixes. The CloudPets team continues to improve your CloudPets App experience."</string>
+    <string name="accept">Accept</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6184197962257773/1040535042</string>
+    <string name="character_counter_pattern">%1$d/%2$d</string>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <string name="debug_menu_ad_information">Ad Information</string>
+    <string name="debug_menu_creative_preview">Creative Preview</string>
+    <string name="debug_menu_title">Select a Debug Mode</string>
+    <string name="debug_menu_troubleshooting">Troubleshooting</string>
+    <string name="decline">Decline</string>
+    <string name="default_web_client_id">1026678092063-h922unbi4o6qr4tepueldv57hko3dsgp.apps.googleusercontent.com</string>
+    <string name="error_password_strength">Password must be at least 8 characters long and contain at least one special character or number.</string>
+    <string name="firebase_database_url">https://cloudpets-bd370.firebaseio.com</string>
+    <string name="gcm_defaultSenderId">1026678092063</string>
+    <string name="google_api_key">AIzaSyD64G8-h5wMizg7xkQ9NuB9bM5GRHFTcho</string>
+    <string name="google_app_id">1:1026678092063:android:c3947f2a895ed12e</string>
+    <string name="google_crash_reporting_api_key">AIzaSyD64G8-h5wMizg7xkQ9NuB9bM5GRHFTcho</string>
+    <string name="google_storage_bucket">cloudpets-bd370.appspot.com</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-6184197962257773/8424201041</string>
+    <string name="licence_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjKoYkEluxcCp0kZjNE7qN/3v7kkJZkjTDVOaiZ7qbslu336tLFj+vKxpyUb32qN+u7IHDMxRTSqa0gjdV/423uwckFhF//x+SDH/9qTxsmgMcHtItOHPTTWKRosX7JQlrIzavRSJthVruKpZ6FN4urDghMSsXj7N37LHitvzWM90OR98UAxonS9loG1aAZQrDqElG84+UAe2gaeHVCr2E7Ar9MZb826Hup6ScFbra4ZCoitaXnCQZUCmwKm0gLg1CiMaIaoPp8kr0U4IHGjddyfwU4aQBJZHCqj5ipo8x8vabJbISdcsfWWI/Z2gTn+yKuXn6VELvQdTGd5kOk8C5wIDAQAB</string>
+    <string name="store_picture_message">Allow Ad to store image in Picture gallery?</string>
+    <string name="store_picture_title">Save image</string>
+    <string name="story_sassy_cassie_author" />
+    <string name="story_starburst_rainbow_journey_author" />
+    <string name="story_worst_parents_author" />
+</resources>

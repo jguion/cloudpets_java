@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/abc_text_size_subhead_material" android:textColor="@color/abc_secondary_text_material_light" android:gravity="center_vertical" android:id="@id/text" android:tag="layout/list_item_header_0" android:background="@color/background_light_base" android:paddingLeft="@dimen/list_item_image_margin" android:paddingRight="@dimen/list_item_image_margin" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

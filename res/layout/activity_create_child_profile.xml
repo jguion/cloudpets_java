@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/gradient_bg_half" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/button_panel">
+        <FrameLayout android:id="@id/fragment_container" android:paddingTop="@dimen/onboarding_cloud_content_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/toolbar_onboarding" />
+    <LinearLayout android:orientation="vertical" android:id="@id/button_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/next_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_connect_your_cloudpet" android:layout_alignParentBottom="true" style="@style/BorderlessButtonStyle" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/child_profile_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/create_child_profile_button" android:background="@drawable/button_primary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/default_button_height" android:text="@string/btn_create_child_profile" android:layout_alignParentBottom="true" style="@style/BorderlessButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
